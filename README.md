@@ -12,9 +12,9 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260801-master-baseline-business-analyst-data-analyst-v001-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260801-master-baseline-business-analyst-data-analyst-v001-cover-letter.pdf)
-- [Editable LaTeX and QA package](applications/20260801-master-baseline-business-analyst-data-analyst-v001/)
+- [Resume PDF](output/pdf/20260801-city-of-toronto-business-analyst-pf-r-v002-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260801-city-of-toronto-business-analyst-pf-r-v002-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260801-city-of-toronto-business-analyst-pf-r-v002/)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules
