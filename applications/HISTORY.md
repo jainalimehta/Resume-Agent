@@ -10,3 +10,4 @@
 | 005 | 2026-08-01 | General Application | Business Analyst / Data Analyst | [20260801-general-application-business-analyst-data-analyst-v005](./20260801-general-application-business-analyst-data-analyst-v005/) | verified |
 | 006 | 2026-08-01 | General Application | Business Analyst / Data Analyst | [20260801-general-application-business-analyst-data-analyst-v006](./20260801-general-application-business-analyst-data-analyst-v006/) | verified |
 | 007 | 2026-08-01 | General Application | Business Analyst / Data Analyst | [20260801-general-application-business-analyst-data-analyst-v007](./20260801-general-application-business-analyst-data-analyst-v007/) | verified |
+| 008 | 2026-08-01 | General Application | Business Analyst / Data Analyst | [20260801-general-application-business-analyst-data-analyst-v008](./20260801-general-application-business-analyst-data-analyst-v008/) | verified |
