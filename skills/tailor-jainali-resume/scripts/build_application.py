@@ -11,7 +11,7 @@ import sys
 from pathlib import Path
 
 
-RUNTIME_BIN = Path("/Users/jainalimehta00/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override")
+RUNTIME_BIN = Path.home() / ".cache" / "codex-runtimes" / "codex-primary-runtime" / "dependencies" / "bin" / "override"
 ALLOWED_SHORT = {
     "sincerely,", "best regards,", "jainali mehta", "dear hiring manager,", "hiring manager",
     "general application", "toronto, on", "thank you for your consideration.",
