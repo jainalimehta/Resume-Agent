@@ -88,6 +88,7 @@ Use only the facts in this file. Jainali's direct corrections override older res
 
 - Power BI work is still awaiting its final project/documentation step and GitHub README update.
 - Do not present this dashboard as a completed or published portfolio project until Jainali confirms completion.
+- Jainali has requested that it may be included now only when clearly labelled `In Progress`, with publication still pending.
 - Power BI may remain in the skills section because Jainali has hands-on project exposure.
 
 ### Bank of Baroda Customer Behaviour Analysis
@@ -119,4 +120,5 @@ Use only the facts in this file. Jainali's direct corrections override older res
 - Education dates and degree names come from the supplied Overleaf resume in `Overleaf Projects (2 items)/main.tex`.
 - Direct user correction establishes `Data Intern` as the AYLA Solutions title and removes Tableau.
 - Direct user clarification establishes that the Power BI project and GitHub documentation are not yet finalized.
+- Direct user instruction permits the Power BI dashboard to appear as an explicitly in-progress project before final completion.
 - GitHub repository content supports the technical portfolio claims.
