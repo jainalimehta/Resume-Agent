@@ -13,8 +13,9 @@ from pathlib import Path
 
 RUNTIME_BIN = Path("/Users/jainalimehta00/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override")
 ALLOWED_SHORT = {
-    "sincerely,", "jainali mehta", "dear hiring manager,", "thank you for your consideration.",
-    "hr analytics", "credentials", "education", "selected projects", "professional experience",
+    "sincerely,", "best regards,", "jainali mehta", "dear hiring manager,", "hiring manager",
+    "general application", "toronto, on", "thank you for your consideration.",
+    "hr analytics", "credentials", "education", "experience", "projects", "selected projects", "professional experience",
     "professional summary", "technical and business skills",
 }
 
@@ -52,7 +53,7 @@ def short_line_warnings(text: str) -> list[str]:
         if not line:
             continue
         words = re.findall(r"[A-Za-z0-9][A-Za-z0-9&+./'-]*", line)
-        if len(words) > 2 or line.lower() in ALLOWED_SHORT or line.isupper():
+        if not words or len(words) > 2 or line.lower() in ALLOWED_SHORT or line.isupper():
             continue
         if "@" in line or "|" in line or re.search(r"\b(?:19|20)\d{2}\b", line):
             continue
@@ -110,4 +111,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
