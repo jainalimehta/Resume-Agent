@@ -21,7 +21,7 @@ Build a complete, versioned application package from Jainali's verified profile 
 3. Exclude unsupported requirements rather than implying experience.
 4. Choose projects by role:
    - Data or SQL-heavy: prioritize the PostgreSQL GitHub projects.
-   - BI or reporting-heavy: use verified Power BI skills. The Sales Performance Dashboard may be shown only as `In Progress` until Jainali confirms the final project and repository documentation are finished; never imply it is completed or published.
+   - BI or reporting-heavy: state that all three published projects include completed Power BI dashboard planning and completed Generative AI-assisted analysis. Do not imply the interactive Power BI dashboards are implemented or published until Jainali confirms that final stage.
    - Business Analyst-heavy: prioritize requirements, process, stakeholder, Bank of Baroda, or GST research evidence.
 
 ## Create an Immutable Version

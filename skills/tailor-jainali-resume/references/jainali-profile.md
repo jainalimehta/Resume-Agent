@@ -68,6 +68,8 @@ Use only the facts in this file. Jainali's direct corrections override older res
 - Defined recognized revenue to exclude pending, refunded, and cancelled activity.
 - Analyzed customer spend, order frequency, product rankings, monthly revenue, and payment methods.
 - Added repeatable validation and GitHub Actions checks.
+- Published a completed `AI Analysis` section with Generative AI-assisted prompts, business insights, and recommendations based on the SQL outputs.
+- Completed Power BI KPI and dashboard-planning sections; interactive dashboard implementation is the next stage.
 
 ### Healthcare Patient and Hospital Analytics
 
@@ -76,6 +78,8 @@ Use only the facts in this file. Jainali's direct corrections override older res
 - Used CTEs and window functions for rankings, segmentation, running totals, and lag comparisons.
 - Analyzed appointment completion, treatment costs, billing status, clinician workload, and insurance claims.
 - Added automated validation and GitHub Actions checks.
+- Published a completed `AI Analysis` section with prompts, qualitative operational insights, and business recommendations based on the SQL outputs.
+- Completed Power BI dashboard-planning sections; interactive dashboard implementation is the next stage.
 
 ### HR Analytics
 
@@ -83,13 +87,15 @@ Use only the facts in this file. Jainali's direct corrections override older res
 - Built a normalized PostgreSQL workforce model spanning departments, employees, salaries, performance reviews, and attendance.
 - Analyzed headcount, compensation, performance, attendance, hiring year, and tenure.
 - Used CTEs, ranking, and window functions with repeatable validation and GitHub Actions.
+- Published a completed `AI Analysis` section with prompts, workforce insights, and business recommendations based on the SQL outputs.
+- Completed Power BI dashboard-planning sections; interactive dashboard implementation is the next stage.
 
-### Sales Performance Dashboard
+### Power BI Status Across the Three Published Projects
 
-- Power BI work is still awaiting its final project/documentation step and GitHub README update.
-- Do not present this dashboard as a completed or published portfolio project until Jainali confirms completion.
-- Jainali has requested that it may be included now only when clearly labelled `In Progress`, with publication still pending.
-- Power BI may remain in the skills section because Jainali has hands-on project exposure.
+- Jainali confirms that all three projects contain Power BI sections and that the AI sections are complete.
+- Live GitHub verification confirms completed AI-analysis files and Power BI dashboard-planning or recommendation sections in all three projects.
+- The published repository trees do not yet contain `.pbix` files or other completed interactive dashboard artifacts.
+- Describe Power BI as completed dashboard planning within each project; do not describe the interactive dashboards as implemented or published until Jainali confirms the final stage.
 
 ### Bank of Baroda Customer Behaviour Analysis
 
@@ -119,6 +125,6 @@ Use only the facts in this file. Jainali's direct corrections override older res
 
 - Education dates and degree names come from the supplied Overleaf resume in `Overleaf Projects (2 items)/main.tex`.
 - Direct user correction establishes `Data Intern` as the AYLA Solutions title and removes Tableau.
-- Direct user clarification establishes that the Power BI project and GitHub documentation are not yet finalized.
-- Direct user instruction permits the Power BI dashboard to appear as an explicitly in-progress project before final completion.
+- Direct user correction establishes that all three portfolio projects contain Power BI planning sections and completed AI sections.
+- GitHub inspection on August 1, 2026 verified `AI Analysis/ai_insights.md`, `ai_prompts.md`, and `business_recommendations.md` in every repository. Those files include Power BI dashboard-planning sections while describing dashboard implementation as a next stage.
 - GitHub repository content supports the technical portfolio claims.
