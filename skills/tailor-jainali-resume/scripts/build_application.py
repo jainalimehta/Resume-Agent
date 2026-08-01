@@ -15,7 +15,7 @@ RUNTIME_BIN = Path("/Users/jainalimehta00/.cache/codex-runtimes/codex-primary-ru
 ALLOWED_SHORT = {
     "sincerely,", "best regards,", "jainali mehta", "dear hiring manager,", "hiring manager",
     "general application", "toronto, on", "thank you for your consideration.",
-    "hr analytics", "credentials", "education", "experience", "projects", "selected projects", "professional experience",
+    "hr analytics", "credentials", "education", "experience", "profile", "projects", "selected projects", "professional experience",
     "professional summary", "technical and business skills",
 }
 
