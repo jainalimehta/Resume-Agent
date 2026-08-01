@@ -86,9 +86,9 @@ Use only the facts in this file. Jainali's direct corrections override older res
 
 ### Sales Performance Dashboard
 
-- University capstone project using Power BI and a simulated retail dataset.
-- Tracked regional sales KPIs, product performance, and sales trends.
-- Used DAX formulas, dynamic filtering, and visual storytelling.
+- Power BI work is still awaiting its final project/documentation step and GitHub README update.
+- Do not present this dashboard as a completed or published portfolio project until Jainali confirms completion.
+- Power BI may remain in the skills section because Jainali has hands-on project exposure.
 
 ### Bank of Baroda Customer Behaviour Analysis
 
@@ -105,7 +105,7 @@ Use only the facts in this file. Jainali's direct corrections override older res
 ## Skills
 
 - Data and BI: PostgreSQL, SQL, Microsoft Excel (advanced), Power BI
-- Analytics: relational data modelling, data cleaning, data visualization, KPI reporting, dashboard development, statistics, CTEs, window functions, DAX
+- Analytics: relational data modelling, data cleaning, data visualization, KPI reporting, dashboard development, statistics, CTEs, window functions
 - Business analysis: requirements gathering, process mapping, documentation, stakeholder communication, Agile ceremonies
 - Delivery: Git, GitHub Actions, Microsoft Office, Google Workspace
 - Explicit exclusion: Jainali has not worked with Tableau; never list it
@@ -118,5 +118,5 @@ Use only the facts in this file. Jainali's direct corrections override older res
 
 - Education dates and degree names come from the supplied Overleaf resume in `Overleaf Projects (2 items)/main.tex`.
 - Direct user correction establishes `Data Intern` as the AYLA Solutions title and removes Tableau.
+- Direct user clarification establishes that the Power BI project and GitHub documentation are not yet finalized.
 - GitHub repository content supports the technical portfolio claims.
-
