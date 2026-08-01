@@ -1,21 +1,40 @@
-# Reference Format Specification
+# Locked Resume and Cover-Letter Format
 
-This specification distils only the visual structure of the two user-supplied LaTeX references. No names, employers, education, projects, metrics, or letter prose from those documents may be reused.
+The user-supplied LaTeX in Codex attachment `7d512484-66d1-4a59-9772-09e1c09f05ed/pasted-text.txt` is the canonical structural source. The reusable implementation is stored in `../assets/resume-template.tex` and `../assets/cover-letter-template.tex`.
 
-## Resume
+## Resume Contract
 
-- Letter paper with an 11-point serif body and compact margins.
-- Plain black text, no colour, icons, columns, photo, sidebar, or footer.
-- Two-row `tabular*` header: name and web link on the left; email and location on the right.
-- Small-caps section headings followed by a thin full-width rule.
-- Education and experience use two-line entries: bold institution/employer with location, then italic degree/title with date.
-- Experience bullets use short bold lead-ins followed by evidence-based prose.
-- Sections follow the reference rhythm while retaining Jainali's required separate Education and Credentials sections.
+- `letterpaper`, 10-point `article`.
+- Geometry: left/right `0.52in`, top/bottom `0.42in`.
+- T1-encoded Latin Modern serif. Under Tectonic/XeTeX, zero-width inter-character breaks suppress common ligatures for reliable ATS extraction without changing the supplied template's visual typography.
+- Black `ink` colour (`#111111`).
+- Centered 17-point name and compact one-line contact details.
+- Bold small-caps section headings with thin rules.
+- `tabularx` employer/project rows with right-aligned location, date, or technology labels.
+- Compact standard bullets with 0.16-inch left margin.
+- One column, no icons, photo, sidebar, chart, skill bar, footer, or decorative graphic.
+- Section order is locked: Professional Summary, Core Competencies, Professional Experience, Business Analytics Projects, Education, Credentials.
 
-## Cover Letter
+## Cover-Letter Contract
 
-- Match the resume's paper, serif type, margins, and black-only presentation.
-- Reuse the two-row contact header and full-width rule.
-- Use date, recipient block, salutation, separated body paragraphs, and a traditional closing.
-- Omit the reference person's signature image and all reference content.
-- Keep enough top margin for the complete header to render without clipping.
+- Match the resume's 10-point Latin Modern serif typography, black colour, and centered contact header.
+- Use US Letter with compact but readable margins.
+- Include a thin rule beneath the contact header.
+- Follow date, recipient, salutation, evidence paragraphs, motivation, direct close, and signature-name structure.
+- Keep the letter to one page and approximately 300-425 words.
+
+## Allowed Tailoring
+
+- Job-specific summary and competency ordering.
+- Wording and ordering of verified responsibilities.
+- Selection and emphasis of verified projects and coursework.
+- Job-description terminology supported by verified facts.
+- Company-specific cover-letter motivation.
+
+## Prohibited Changes
+
+- Redesigning the document or substituting a different template.
+- Changing typeface, colour, margins, document class, header structure, section styling, or list geometry merely to fit content.
+- Adding columns, graphics, icons, ratings, sidebars, photos, text boxes, headers, or footers.
+- Shrinking text before rewriting content.
+- Copying facts or prose from any third-party formatting reference.

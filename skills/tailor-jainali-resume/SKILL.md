@@ -1,62 +1,124 @@
 ---
 name: tailor-jainali-resume
-description: Create truthful, ATS-compatible, single-page LaTeX resumes and tailored cover letters for Jainali Mehta from pasted job descriptions, compile them to PDF, validate layout and text extraction, and preserve immutable application history. Use for Business Analyst, Data Analyst, reporting, operations analytics, and related entry-level applications in Toronto or elsewhere in Canada.
+description: Create a truthful, ATS-compatible, single-page LaTeX resume and tailored cover letter for Jainali Mehta from a pasted job description, using Jainali's locked canonical 10-point format, compiling both to PDF, validating layout and text, and preserving immutable application history. Use for Business Analyst, Data Analyst, BI, reporting, operations analytics, and related Canadian applications.
 ---
 
 # Tailor Jainali Resume
 
-Build a complete, versioned application package from Jainali's verified profile and the supplied job description.
+Create one job-specific resume and cover letter from verified facts while preserving Jainali's locked LaTeX format. This skill is the operating manual; `references/jainali-profile.md` is the complete candidate record and must remain the single canonical fact base.
 
-## Load the Sources
+## Candidate Quick Reference
 
-1. Read `references/jainali-profile.md` completely.
-2. Read `references/quality-rules.md` completely.
-3. Preserve the job description verbatim in the new application folder.
-4. Treat direct corrections from Jainali as authoritative and update the canonical profile when appropriate.
+- Jainali Mehta is based in Toronto, Ontario, Canada and is targeting beginner/graduate Business Analyst, Data Analyst, reporting, BI, and operations-analytics roles.
+- Contact: `jainali2000@gmail.com`, `linkedin.com/in/jainali-mehta`, and `github.com/jainalimehta`; omit phone because no current Canadian number is verified.
+- Education: Master of Business Analytics, Edith Cowan University, Australia, 2023--2025; Integrated Master of Business Administration, Atmiya University, India, 2018--2022.
+- Experience: Data Intern, AYLA Solutions, Australia, 2025; Support Executive, Trans Globe Education, India, 2022--2023; Administrative Executive, Arihant Investment, India, 2020--2021.
+- Portfolio: three published PostgreSQL/SQL analytics repositories covering e-commerce, healthcare, and workforce analytics. Their AI-assisted analysis and recommendations are complete. Their Power BI planning is complete, but interactive dashboards and `.pbix` files are not yet published.
+- Core verified tools and methods: PostgreSQL, SQL, advanced Microsoft Excel, Power BI planning, relational modelling, data cleaning and validation, KPIs, reporting, requirements gathering, process documentation, stakeholder communication, Agile ceremonies, Git, GitHub Actions, Microsoft Office, and Google Workspace.
+- Explicit exclusions: no Tableau, no verified phone number, no invented metrics, and no claim of published interactive Power BI dashboards.
 
-## Analyze the Job
+Read the canonical profile for the full responsibility-level evidence, coursework, credentials, repositories, additional academic projects, activities, safe phrasing, and known unknowns.
 
-1. Extract responsibilities, required tools, business domain, and behavioural requirements.
-2. Map every selected keyword to a verified profile fact.
-3. Exclude unsupported requirements rather than implying experience.
-4. Choose projects by role:
-   - Data or SQL-heavy: prioritize the PostgreSQL GitHub projects.
-   - BI or reporting-heavy: state that all three published projects include completed Power BI dashboard planning and completed Generative AI-assisted analysis. Do not imply the interactive Power BI dashboards are implemented or published until Jainali confirms that final stage.
-   - Business Analyst-heavy: prioritize requirements, process, stakeholder, Bank of Baroda, or GST research evidence.
+## Load Required Sources
 
-## Create an Immutable Version
+Read these files completely before drafting:
+
+1. `references/jainali-profile.md` - canonical facts.
+2. `references/quality-rules.md` - truth, ATS, page, and QA requirements.
+3. `references/reference-format-spec.md` - locked formatting contract.
+4. The supplied job description.
+
+Jainali's direct corrections override older sources. Never infer missing facts. If a job description requests an unsupported capability, disclose it in `match-notes.md` and omit it from affirmative resume claims.
+
+## Analyze the Job Description
+
+Extract:
+
+- company, role, location, and business domain;
+- responsibilities and behavioural requirements;
+- required tools, methods, and keywords;
+- must-have versus preferred qualifications.
+
+Map every selected keyword to a verified profile fact. Record unsupported requirements as genuine gaps in `match-notes.md`.
+
+Role emphasis:
+
+- Business Analyst: requirements, process mapping, documentation, stakeholder communication, workflow coordination, and business coursework.
+- Data Analyst: PostgreSQL, SQL, advanced Excel, data modelling, validation, KPIs, CTEs, window functions, and portfolio evidence.
+- BI/reporting: reporting, KPI definition, dashboard planning, Power BI exposure, business insights, and recommendations.
+
+All three published projects contain completed AI-assisted analysis and completed Power BI dashboard planning. Do not claim that interactive Power BI dashboards or `.pbix` files are published until Jainali confirms completion.
+
+## Preserve the Locked Format
+
+Use `assets/resume-template.tex` and `assets/cover-letter-template.tex` as the structural source of truth.
+
+Do not redesign, replace, or casually modify:
+
+- document class, paper size, geometry, typeface, colour, header, section styling, macros, list geometry, or one-column structure;
+- the centered contact header;
+- resume section order: Professional Summary, Core Competencies, Professional Experience, Business Analytics Projects, Education, Credentials;
+- the matching cover-letter typography and header.
+
+Tailor content, ordering within sections, terminology, and project emphasis. Rewrite text to fit; do not solve overflow by shrinking the locked typography or margins.
+
+## Create an Immutable Application
 
 Run from the repository root:
 
 ```bash
 python3 skills/tailor-jainali-resume/scripts/new_application.py \
-  --company "Company" --role "Role" --job-description /path/to/job-description.md
+  --company "Company" \
+  --role "Role" \
+  --location "Toronto, ON" \
+  --job-description /path/to/job-description.md
 ```
 
-Edit only the newly printed folder. Never overwrite an earlier application.
+Edit only the newly created folder's:
 
-## Tailor the Documents
+- `resume.tex`
+- `cover-letter.tex`
+- `match-notes.md`
 
-- Edit `resume.tex`, `cover-letter.tex`, and `match-notes.md`.
-- Keep the resume and cover letter to exactly one page each.
+Preserve the job description verbatim. Never overwrite an earlier application.
+
+## Truth Rules
+
+- Use `Data Intern` for AYLA Solutions, dated 2025.
+- Use `Support Executive`, Trans Globe Education, 2022-2023.
+- Use `Administrative Executive`, Arihant Investment, 2020-2021.
+- Use Master of Business Analytics, Edith Cowan University, 2023-2025.
+- Use Integrated Master of Business Administration, Atmiya University, 2018-2022.
+- Never list Tableau.
+- Omit phone until a current Canadian number is verified.
 - Keep Education and Credentials separate.
-- Use `Data Intern` for AYLA Solutions.
-- Do not list Tableau.
-- Use conventional capitalization and ASCII hyphens.
-- Do not fabricate quantitative outcomes.
+- Do not invent metrics, outcomes, dates, tools, credentials, or responsibilities.
+- Do not label coursework or projects as certifications.
+
+## Drafting Standard
+
+- Lead with evidence and job relevance; do not inflate seniority.
+- Use exact capitalization for names, degrees, employers, titles, technologies, and credentials.
+- Prefer concise action-and-scope bullets. Do not fabricate a result when no measured result is verified.
+- Preserve the distinction between completed SQL/AI work, completed Power BI planning, and unpublished interactive dashboard implementation.
+- Select the strongest verified portfolio evidence for the posting; do not add an older project merely to fill space.
+- Keep the page visually full but readable. Remove repetition before removing relevant evidence.
+- A cover letter must connect Jainali's education, Australian internship, portfolio, and earlier process-support experience to the employer's actual needs; it must not merely paraphrase the resume.
 
 ## Build and Verify
 
-Run:
-
 ```bash
-python3 skills/tailor-jainali-resume/scripts/build_application.py applications/<version-folder>
+python3 skills/tailor-jainali-resume/scripts/build_application.py \
+  applications/<version-folder>
 ```
 
-Resolve every failure and short-line warning. Inspect `qa/resume.png` and `qa/cover-letter.png`. Rebuild after every material edit.
+Before completion:
 
-## Finish
+1. Resolve every build failure and short-line warning.
+2. Require exactly one resume page and one cover-letter page.
+3. Confirm searchable text, embedded fonts, correct reading order, and no Tableau claim.
+4. Inspect `qa/resume.png` and `qa/cover-letter.png` for clipping, overlap, inconsistent alignment, excessive whitespace, crowded emphasis, and one- or two-word final fragments.
+5. Rebuild after every material content change.
+6. Mark the application `verified` in `applications/HISTORY.md` only after all checks pass.
 
-- Mark the application `verified` in `applications/HISTORY.md`.
-- Commit the immutable version when Git is available.
-- Return the final PDFs, LaTeX sources, job description, and match notes.
+Return both PDFs, both LaTeX sources, the preserved job description, and match notes.

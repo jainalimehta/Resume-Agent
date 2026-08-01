@@ -17,6 +17,7 @@ ALLOWED_SHORT = {
     "general application", "toronto, on", "thank you for your consideration.",
     "hr analytics", "credentials", "education", "experience", "profile", "projects", "selected projects", "professional experience",
     "professional summary", "technical and business skills",
+    "core competencies", "master baseline", "prospective employer",
 }
 
 

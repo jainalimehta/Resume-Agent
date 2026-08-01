@@ -15,20 +15,22 @@
 - Keep links visible and confirm `pdftotext` reading order.
 - ATS is the correct acronym; do not call the document ATDS-supported.
 
-## Page and Typography
+## Page and Locked Typography
 
 - Resume and cover letter must each be exactly one page.
-- Use at least 10 pt body text and at least 0.5-inch margins.
+- Resume must use the canonical 10-point LaTeX template with 0.52-inch side margins and 0.42-inch top/bottom margins.
+- Keep the T1-encoded Latin Modern serif and suppress common ligatures under XeTeX so `pdftotext` produces ordinary character sequences for ATS parsing.
+- Do not change the locked typeface, geometry, header, section rules, or list geometry to make content fit.
 - Avoid empty visual rows and one- or two-word wrapped fragments.
 - Rewrite content before reducing font size.
 - Use consistent capitalization for employers, titles, technologies, sections, and project names.
 
-## Resume Structure
+## Locked Resume Structure
 
 - Professional Summary
-- Technical and Business Skills
+- Core Competencies
 - Professional Experience
-- Selected Projects
+- Business Analytics Projects
 - Education
 - Credentials
 - Keep Education and Credentials separate under all circumstances.
@@ -47,4 +49,3 @@
 - Extract searchable text and reject compatibility ligatures.
 - Resolve every short-line warning.
 - Render both PDFs and visually inspect clipping, overlap, spacing, alignment, capitalization, and excessive whitespace.
-

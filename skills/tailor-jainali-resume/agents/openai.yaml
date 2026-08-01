@@ -1,4 +1,4 @@
 interface:
   display_name: "Tailor Jainali Resume"
-  short_description: "Create ATS-ready resume and cover letter"
-  default_prompt: "Use $tailor-jainali-resume to tailor my one-page resume and cover letter to this job description."
+  short_description: "Tailor Jainali's verified one-page application package"
+  default_prompt: "Use $tailor-jainali-resume to create a truthful, ATS-readable, single-page LaTeX resume and matching cover letter for Jainali Mehta from this job description. Preserve her locked format, verified titles and dates, Power BI/AI status, and immutable application history."

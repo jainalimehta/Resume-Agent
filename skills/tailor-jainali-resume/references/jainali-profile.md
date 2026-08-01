@@ -18,6 +18,14 @@ Use only the facts in this file. Jainali's direct corrections override older res
 - Business Intelligence, reporting, operations analytics, and adjacent graduate roles
 - Position Jainali as a beginner with a Data Intern foundation, not as an experienced analyst
 
+## Positioning Summary
+
+- Truthful baseline: Business Analytics graduate and early-career analyst with Australian Data Intern experience, supported by Indian process, documentation, and administrative experience.
+- Strongest Business Analyst evidence: requirements gathering, reporting requirements, process documentation, workflow coordination, stakeholder communication, Agile planning/reviews, Business Systems Analysis, and Business Process Management.
+- Strongest Data Analyst evidence: PostgreSQL, SQL, advanced Excel, relational modelling, data cleaning and validation, KPI definition, CTEs, window functions, rankings, segmentation, running totals, lag comparisons, and decision-focused reporting.
+- Strongest BI evidence: Power BI dashboard planning, visualization requirements, KPI/report design, and completed AI-assisted interpretation of validated SQL findings.
+- Seniority guardrail: use `early-career`, `entry-level`, `graduate`, or `Data Intern foundation`; never imply years of analyst employment or senior ownership.
+
 ## Education
 
 - Master of Business Analytics, Edith Cowan University, Australia, 2023-2025
@@ -117,13 +125,42 @@ Use only the facts in this file. Jainali's direct corrections override older res
 - Delivery: Git, GitHub Actions, Microsoft Office, Google Workspace
 - Explicit exclusion: Jainali has not worked with Tableau; never list it
 
+## Safe and Prohibited Claims
+
+Safe when relevant:
+
+- `Power BI dashboard planning`, `Power BI KPI planning`, or `Power BI visualization requirements`
+- `Generative AI-assisted analysis`, `AI-assisted insights`, or `AI-assisted recommendations based on SQL outputs`
+- `supported`, `contributed`, `participated`, or `coordinated` for internship responsibilities where ownership is not verified
+- `advanced Excel`, `PostgreSQL`, `SQL`, requirements gathering, documentation, data validation, and KPI reporting
+
+Prohibited until Jainali supplies new evidence:
+
+- Tableau experience
+- published or implemented interactive Power BI dashboards
+- `.pbix` portfolio deliverables
+- fabricated percentages, savings, volumes, turnaround improvements, team sizes, or stakeholder counts
+- employment months where only a year or year range is verified
+- a current phone number
+- work authorization, citizenship, language proficiency, GPA, honours, or credential expiry dates
+- changing `Data Intern` to `Business Analyst Intern`, `Data Analyst Intern`, or another title
+
+## Selection Guidance
+
+- Default to the three current GitHub projects because they provide the strongest direct SQL, KPI, AI-assisted insight, validation, and Power BI planning evidence.
+- Use Bank of Baroda Customer Behaviour Analysis when a posting values banking, customer analytics, transaction analysis, Excel, or SQL.
+- Use Online GST Filing Research when a posting values research design, surveys, SPSS, public-sector/tax subject matter, or qualitative/quantitative research.
+- Mention the International Family Business Conference only when extracurricular, family-business, networking, or conference participation is relevant and space permits.
+- Select ECU coursework to match the job; do not present subjects as credentials.
+
 ## Activities
 
 - Participated in an International Family Business Conference.
 
 ## Source Notes
 
-- Education dates and degree names come from the supplied Overleaf resume in `Overleaf Projects (2 items)/main.tex`.
+- Education dates and degree names were verified from Jainali's supplied source material and direct corrections.
+- The locked resume structure comes from Jainali's Codex attachment `7d512484-66d1-4a59-9772-09e1c09f05ed/pasted-text.txt`; placeholders in that attachment must always be replaced with the verified facts in this profile.
 - Direct user correction establishes `Data Intern` as the AYLA Solutions title and removes Tableau.
 - Direct user correction establishes that all three portfolio projects contain Power BI planning sections and completed AI sections.
 - GitHub inspection on August 1, 2026 verified `AI Analysis/ai_insights.md`, `ai_prompts.md`, and `business_recommendations.md` in every repository. Those files include Power BI dashboard-planning sections while describing dashboard implementation as a next stage.

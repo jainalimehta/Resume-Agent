@@ -12,15 +12,16 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260801-general-application-business-analyst-data-analyst-v008-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260801-general-application-business-analyst-data-analyst-v008-cover-letter.pdf)
+- [Resume PDF](output/pdf/20260801-master-baseline-business-analyst-data-analyst-v001-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260801-master-baseline-business-analyst-data-analyst-v001-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260801-master-baseline-business-analyst-data-analyst-v001/)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules
 
 The canonical profile is stored in [`skills/tailor-jainali-resume/references/jainali-profile.md`](skills/tailor-jainali-resume/references/jainali-profile.md). The workflow must not invent employment history, dates, credentials, tools, metrics, or project outcomes.
 
-The document system uses a one-column US Letter layout with searchable text, embedded fonts, conventional section headings, and no icons, photos, sidebars, skill bars, or scanned content. Education and Credentials remain separate.
+The locked document system follows Jainali's supplied format: a 10-point, one-column US Letter resume using Latin Modern serif, compact rules and bullets, searchable text, and no icons, photos, sidebars, skill bars, or scanned content. Education and Credentials remain separate. The matching cover letter uses the same typography and centered contact header.
 
 ## Create a New Application Version
 
@@ -51,7 +52,6 @@ The build requires Python 3, [Tectonic](https://tectonic-typesetting.github.io/)
 applications/                         Immutable application packages and history
 output/pdf/                           Final compiled PDFs
 skills/tailor-jainali-resume/         Reusable agent instructions, facts, templates, and scripts
-Overleaf Projects (2 items)/          Original Jainali source material
 ```
 
 ## Portfolio Status
@@ -60,4 +60,4 @@ The three published analytics projects include completed PostgreSQL analysis, AI
 
 ## Privacy
 
-This is a public personal portfolio repository. It intentionally contains Jainali Mehta's professional contact information and historical resume/application artifacts. Do not add private phone numbers, employer-confidential data, API credentials, or unredacted third-party documents.
+This is a public personal portfolio repository. It intentionally contains Jainali Mehta's professional contact information and immutable application versions created from this clean baseline. Do not add private phone numbers, employer-confidential data, API credentials, or unredacted third-party documents.

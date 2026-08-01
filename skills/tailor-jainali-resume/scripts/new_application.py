@@ -10,6 +10,25 @@ import shutil
 from pathlib import Path
 
 
+LATEX_ESCAPES = {
+    "\\": r"\textbackslash{}",
+    "&": r"\&",
+    "%": r"\%",
+    "$": r"\$",
+    "#": r"\#",
+    "_": r"\_",
+    "{": r"\{",
+    "}": r"\}",
+    "~": r"\textasciitilde{}",
+    "^": r"\textasciicircum{}",
+}
+
+
+def latex_escape(value: str) -> str:
+    """Escape user- or job-derived text before inserting it into LaTeX."""
+    return "".join(LATEX_ESCAPES.get(character, character) for character in value)
+
+
 def slugify(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-") or "unknown"
 
@@ -47,6 +66,7 @@ def main() -> None:
         "{{COMPANY_REASON}}": args.company_reason,
         "{{VERSION}}": version,
     }
+    latex_replacements = {placeholder: latex_escape(value) for placeholder, value in replacements.items()}
     templates = {
         "resume-template.tex": "resume.tex",
         "cover-letter-template.tex": "cover-letter.tex",
@@ -54,7 +74,8 @@ def main() -> None:
     }
     for source_name, output_name in templates.items():
         text = (skill / "assets" / source_name).read_text(encoding="utf-8")
-        for old, new in replacements.items():
+        selected_replacements = latex_replacements if output_name.endswith(".tex") else replacements
+        for old, new in selected_replacements.items():
             text = text.replace(old, new)
         (target / output_name).write_text(text, encoding="utf-8")
     shutil.copy2(args.job_description, target / "job-description.md")
@@ -68,4 +89,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
