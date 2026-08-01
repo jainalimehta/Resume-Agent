@@ -1,0 +1,13 @@
+.DS_Store
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.xdv
+*.fls
+*.fdb_latexmk
+__pycache__/
+tmp/
+applications/*/qa/*.png
+applications/*/qa/*.txt
+
