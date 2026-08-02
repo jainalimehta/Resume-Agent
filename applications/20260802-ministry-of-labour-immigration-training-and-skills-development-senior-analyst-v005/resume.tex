@@ -1,0 +1,140 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[margin=0.52in,top=0.42in,bottom=0.42in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\raggedright
+\urlstyle{same}
+\emergencystretch=1em
+
+\definecolor{ink}{HTML}{111111}
+\color{ink}
+
+\titleformat{\section}
+  {\bfseries\scshape\normalsize}
+  {}{0pt}{}
+  [\vspace{1.2pt}\titlerule]
+\titlespacing*{\section}{0pt}{5.2pt}{3.2pt}
+
+\setlist[itemize]{
+  leftmargin=0.16in,
+  label=\textbullet,
+  topsep=1.2pt,
+  itemsep=1.2pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\newcommand{\role}[4]{%
+  \begin{tabularx}{\textwidth}{@{}Xr@{}}
+    \textbf{#1} & \textbf{#2} \\
+    \textit{#3} & \textit{#4}
+  \end{tabularx}\vspace{-1pt}
+}
+
+\newcommand{\project}[2]{%
+  \begin{tabularx}{\textwidth}{@{}Xr@{}}
+    \textbf{#1} & \textit{#2}
+  \end{tabularx}\vspace{-1pt}
+}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{17}{19}\selectfont\textbf{Jainali Mehta}}\\[2pt]
+  \small Toronto, Ontario, Canada \;|\;
+  \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com} \;|\;
+  \href{https://www.linkedin.com/in/jainali-mehta}{LinkedIn} \;|\;
+  \href{https://github.com/jainalimehta}{GitHub}
+\end{center}
+\vspace{-7pt}
+
+\section{Professional Summary}
+\small Early-career analyst with a Master of Business Analytics from Edith Cowan University, Australia, and 2025 Data Intern experience at AYLA Solutions, Australia. Applies SQL, advanced Excel, research, KPI reporting, requirements documentation, and Generative AI-assisted analysis to convert business questions into validated, decision-focused insights.
+
+\section{Core Competencies}
+\begin{itemize}[leftmargin=0.16in,label=\textbullet,topsep=0pt,itemsep=1pt,parsep=0pt]
+  \item \small \textbf{Analytics \& Reporting:} PostgreSQL, SQL, advanced Excel, extraction, cleaning, data-quality validation, trend analysis, statistical analysis, KPI reporting, and data visualization.
+  \item \small \textbf{Research \& Business Analysis:} Quantitative survey research, SPSS response analysis, requirements elicitation and documentation, process mapping, workflow analysis, and stakeholder communication.
+  \item \small \textbf{AI \& Business Intelligence:} Generative AI-assisted analysis, prompt design, machine learning coursework, Power BI dashboard planning, Git, GitHub, and GitHub Actions.
+  \item \small \textbf{Project Delivery:} Agile planning and reviews, progress communication, process coordination, analytical documentation, records management, Microsoft Office, and Google Workspace.
+\end{itemize}
+
+\section{Professional Experience}
+\role{AYLA Solutions}{Australia}{Data Intern}{2025}
+\begin{itemize}
+  \item Gathered and documented business, data, and reporting requirements; translated stakeholder questions into structured analytical needs and reporting outputs.
+  \item Supported SQL extraction and validation and prepared advanced Excel reports and dashboard insights for performance reporting and decision support.
+  \item Participated in Agile planning and reviews, communicated progress, and maintained clear analytical documentation.
+\end{itemize}
+\vspace{1pt}
+
+\role{Trans Globe Education}{India}{Support Executive}{2022--2023}
+\begin{itemize}
+  \item Managed client records and documentation and coordinated application and process updates with students and institutions.
+  \item Supported administrative reporting, workflow management, market research, and client communication across active cases.
+\end{itemize}
+\vspace{1pt}
+
+\role{Arihant Investment}{India}{Administrative Executive}{2020--2021}
+\begin{itemize}
+  \item Maintained accurate business data, documentation, and confidential client records while supporting daily operations.
+  \item Coordinated client communication and information updates with close attention to accuracy and confidentiality.
+\end{itemize}
+
+\section{Business Analytics Projects}
+\project{\href{https://github.com/jainalimehta/HR-Analytics}{Workforce \& Employee Analytics}}{PostgreSQL, SQL, Business Intelligence}
+\begin{itemize}
+  \item Modelled departments, employees, salaries, performance, and attendance with relational and data-quality controls; analyzed headcount, compensation, performance, hiring, attendance, and tenure.
+  \item Converted validated SQL findings into AI-assisted workforce recommendations and a documented Power BI reporting plan.
+\end{itemize}
+\vspace{1pt}
+
+\project{Online GST Filing Adoption Research}{SPSS, Survey Research}
+\begin{itemize}
+  \item Designed and conducted a survey of small businesses in Gujarat, India, examining adoption and use of online GST filing.
+  \item Used SPSS to analyze survey responses, identify adoption barriers, and develop recommendations; earned an A grade.
+\end{itemize}
+\vspace{1pt}
+
+\project{\href{https://github.com/jainalimehta/Ecommerce-Sales-Analytics}{E-Commerce Sales \& Financial Analytics}}{PostgreSQL, SQL, Power BI}
+\begin{itemize}
+  \item Built a normalized model for customers, orders, line items, products, and payments and documented business rules for recognized revenue and transaction status.
+  \item Analyzed revenue and payment KPIs, reconciled data-quality conditions, and produced AI-assisted recommendations and a Power BI reporting plan.
+\end{itemize}
+
+\section{Education}
+\role{Edith Cowan University}{Australia}{Master of Business Analytics}{2023--2025}
+\small\textbf{Relevant Coursework:} Machine Learning, People Analytics, Business Systems Analysis, and Project Management.\\[2pt]
+\role{Atmiya University}{India}{Integrated Master of Business Administration}{2018--2022}
+
+\section{Credentials}
+\small\textbf{Business Analysis \& Process Management} -- Coursera Project Network, June 2025; Credential ID: WV4JMS14XVV6.\\[-0.2pt]
+\small\textbf{NISM Series XII -- Securities Markets Foundation}
+
+\end{document}
