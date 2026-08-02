@@ -11,6 +11,14 @@ Use only the facts in this file. Jainali's direct corrections override older res
 - GitHub: `github.com/jainalimehta`
 - Phone: omit until Jainali provides a current Canadian number
 
+## Canadian-Market Context
+
+- Jainali currently lives in Toronto, Ontario, Canada.
+- Jainali is applying in the Canadian job market for the first time.
+- Jainali has not studied or worked in Canada.
+- State Canadian residence separately from education and experience. Never use ambiguous wording such as `Toronto-based Master of Business Analytics graduate` that could imply a Canadian degree.
+- When geography matters, state explicitly that the Master of Business Analytics is from Edith Cowan University in Australia, the Integrated Master of Business Administration is from Atmiya University in India, the Data Intern experience was in Australia, and the earlier roles were in India.
+
 ## Target Roles
 
 - Entry-level Business Analyst
@@ -144,6 +152,7 @@ Prohibited until Jainali supplies new evidence:
 - a current phone number
 - work authorization, citizenship, language proficiency, GPA, honours, or credential expiry dates
 - changing `Data Intern` to `Business Analyst Intern`, `Data Analyst Intern`, or another title
+- wording that implies Canadian education or Canadian employment experience
 
 ## Selection Guidance
 

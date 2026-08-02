@@ -10,6 +10,7 @@ Create one job-specific resume and cover letter from verified facts while preser
 ## Candidate Quick Reference
 
 - Jainali Mehta is based in Toronto, Ontario, Canada and is targeting beginner/graduate Business Analyst, Data Analyst, reporting, BI, and operations-analytics roles.
+- She is entering the Canadian job market for the first time and has not studied or worked in Canada. State residence, education, and employment geography separately; never use wording that could imply Canadian education or experience.
 - Contact: `jainali2000@gmail.com`, `linkedin.com/in/jainali-mehta`, and `github.com/jainalimehta`; omit phone because no current Canadian number is verified.
 - Education: Master of Business Analytics, Edith Cowan University, Australia, 2023--2025; Integrated Master of Business Administration, Atmiya University, India, 2018--2022.
 - Experience: Data Intern, AYLA Solutions, Australia, 2025; Support Executive, Trans Globe Education, India, 2022--2023; Administrative Executive, Arihant Investment, India, 2020--2021.
@@ -94,6 +95,7 @@ Preserve the job description verbatim. Never overwrite an earlier application.
 - Keep Education and Credentials separate.
 - Do not invent metrics, outcomes, dates, tools, credentials, or responsibilities.
 - Do not label coursework or projects as certifications.
+- Never use ambiguous phrases such as `Toronto-based graduate`. If location matters, say Jainali currently lives in Toronto, then name the Australian and Indian institutions and employment locations separately.
 
 ## Drafting Standard
 

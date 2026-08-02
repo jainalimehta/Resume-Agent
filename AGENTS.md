@@ -5,6 +5,7 @@ Use the `tailor-jainali-resume` skill in `skills/tailor-jainali-resume/` wheneve
 ## Candidate Identity and Positioning
 
 - Jainali Mehta lives in Toronto, Ontario, Canada and is applying as a beginner/graduate candidate for Business Analyst, Data Analyst, reporting, BI, and operations-analytics work.
+- She is entering the Canadian job market for the first time and has not studied or worked in Canada. Do not let `Toronto` modify a degree or experience phrase; state current residence separately from Australian and Indian education and employment.
 - Her relevant professional foundation is Australian experience as a `Data Intern` at AYLA Solutions in 2025. Do not present her as an experienced or senior analyst.
 - Earlier experience is `Support Executive` at Trans Globe Education in India, 2022--2023, and `Administrative Executive` at Arihant Investment in India, 2020--2021.
 - Education must appear exactly as `Master of Business Analytics`, Edith Cowan University, Australia, 2023--2025, and `Integrated Master of Business Administration`, Atmiya University, India, 2018--2022.
