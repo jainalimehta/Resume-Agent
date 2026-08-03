@@ -12,3 +12,4 @@
 | 008 | 2026-08-03 | City of Toronto | Data Analyst & Integrator | [20260803-city-of-toronto-data-analyst-integrator-v008](./20260803-city-of-toronto-data-analyst-integrator-v008/) | verified |
 | 009 | 2026-08-03 | City of Toronto | Systems Integrator 1 | [20260803-city-of-toronto-systems-integrator-1-v009](./20260803-city-of-toronto-systems-integrator-1-v009/) | verified |
 | 010 | 2026-08-03 | City of Toronto | Budget Analyst | [20260803-city-of-toronto-budget-analyst-v010](./20260803-city-of-toronto-budget-analyst-v010/) | verified |
+| 011 | 2026-08-03 | City of Toronto | Research Analyst 1 | [20260803-city-of-toronto-research-analyst-1-v011](./20260803-city-of-toronto-research-analyst-1-v011/) | verified |
