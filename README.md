@@ -12,10 +12,10 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260802-ministry-of-labour-immigration-training-and-skills-development-senior-analyst-v005-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260802-ministry-of-labour-immigration-training-and-skills-development-senior-analyst-v005-cover-letter.pdf)
-- [Editable LaTeX and QA package](applications/20260802-ministry-of-labour-immigration-training-and-skills-development-senior-analyst-v005/)
-- [Senior Analyst interview preparation](applications/20260802-ministry-of-labour-immigration-training-and-skills-development-senior-analyst-v005/interview-preparation.md)
+- [Resume PDF](output/pdf/20260803-ministry-of-the-environment-conservation-and-parks-project-management-coordinator-v006-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260803-ministry-of-the-environment-conservation-and-parks-project-management-coordinator-v006-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260803-ministry-of-the-environment-conservation-and-parks-project-management-coordinator-v006/)
+- [Project Management Coordinator interview preparation](applications/20260803-ministry-of-the-environment-conservation-and-parks-project-management-coordinator-v006/interview-preparation.md)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules
