@@ -12,10 +12,10 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260803-city-of-toronto-business-financial-analyst-data-v012-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260803-city-of-toronto-business-financial-analyst-data-v012-cover-letter.pdf)
-- [Editable LaTeX and QA package](applications/20260803-city-of-toronto-business-financial-analyst-data-v012/)
-- [Business & Financial Analyst (Data) interview preparation](applications/20260803-city-of-toronto-business-financial-analyst-data-v012/interview-preparation.md)
+- [Resume PDF](output/pdf/20260803-city-of-toronto-payroll-program-assistant-1-v013-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260803-city-of-toronto-payroll-program-assistant-1-v013-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260803-city-of-toronto-payroll-program-assistant-1-v013/)
+- [Payroll Program Assistant 1 interview preparation](applications/20260803-city-of-toronto-payroll-program-assistant-1-v013/interview-preparation.md)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules

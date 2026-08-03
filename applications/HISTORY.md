@@ -14,3 +14,4 @@
 | 010 | 2026-08-03 | City of Toronto | Budget Analyst | [20260803-city-of-toronto-budget-analyst-v010](./20260803-city-of-toronto-budget-analyst-v010/) | verified |
 | 011 | 2026-08-03 | City of Toronto | Research Analyst 1 | [20260803-city-of-toronto-research-analyst-1-v011](./20260803-city-of-toronto-research-analyst-1-v011/) | verified |
 | 012 | 2026-08-03 | City of Toronto | Business & Financial Analyst (Data) | [20260803-city-of-toronto-business-financial-analyst-data-v012](./20260803-city-of-toronto-business-financial-analyst-data-v012/) | verified |
+| 013 | 2026-08-03 | City of Toronto | Payroll Program Assistant 1 | [20260803-city-of-toronto-payroll-program-assistant-1-v013](./20260803-city-of-toronto-payroll-program-assistant-1-v013/) | verified |
