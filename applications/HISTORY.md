@@ -10,3 +10,4 @@
 | 006 | 2026-08-03 | Ministry of the Environment, Conservation and Parks | Project Management Coordinator | [20260803-ministry-of-the-environment-conservation-and-parks-project-management-coordinator-v006](./20260803-ministry-of-the-environment-conservation-and-parks-project-management-coordinator-v006/) | verified |
 | 007 | 2026-08-03 | City of Toronto | Business Analyst PF&R | [20260803-city-of-toronto-business-analyst-pf-r-v007](./20260803-city-of-toronto-business-analyst-pf-r-v007/) | verified |
 | 008 | 2026-08-03 | City of Toronto | Data Analyst & Integrator | [20260803-city-of-toronto-data-analyst-integrator-v008](./20260803-city-of-toronto-data-analyst-integrator-v008/) | verified |
+| 009 | 2026-08-03 | City of Toronto | Systems Integrator 1 | [20260803-city-of-toronto-systems-integrator-1-v009](./20260803-city-of-toronto-systems-integrator-1-v009/) | verified |
