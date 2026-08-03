@@ -1,0 +1,72 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[margin=0.68in,top=0.52in,bottom=0.52in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt plus 1pt minus 1pt}
+\raggedright
+\urlstyle{same}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\definecolor{ink}{HTML}{111111}
+\color{ink}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{17}{19}\selectfont\textbf{Jainali Mehta}}\par\vspace{2pt}
+  \small Toronto, Ontario, Canada \;|\;
+  \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com} \;|\;
+  \href{https://www.linkedin.com/in/jainali-mehta}{LinkedIn} \;|\;
+  \href{https://github.com/jainalimehta}{GitHub}
+\end{center}
+\vspace{-5pt}
+\noindent\rule{\textwidth}{0.4pt}
+
+August 3, 2026
+
+\textbf{Hiring Manager}\\
+City of Toronto\\
+Parks \& Recreation -- Business \& Technology Transformation\\
+Metro Hall, 55 John Street, Toronto, ON
+
+Dear Hiring Manager,
+
+I currently live in Toronto and am applying to the City of Toronto for the Business Analyst PF\&R position, Job ID 64360. I earned my Master of Business Analytics from Edith Cowan University in Australia and my Integrated Master of Business Administration from Atmiya University in India. I am motivated to help Parks \& Recreation translate operational needs into clear requirements, improved processes, and practical solutions.
+
+As a Data Intern at AYLA Solutions in Australia in 2025, I gathered and documented business, data, and reporting requirements and synthesized stakeholder questions into structured analytical needs. I supported SQL extraction and validation, prepared advanced Excel reports, and contributed dashboard insights for performance reporting. Through Agile planning and reviews, I communicated progress and maintained clear analytical documentation. This experience developed my ability to connect business questions, data needs, and reporting outputs while collaborating in a structured delivery environment.
+
+My portfolio provides concrete evidence of process, financial, workforce, and operational analysis. In an e-commerce project, I modelled customer, order, product, and payment relationships, documented revenue-recognition rules, reconciled data-quality conditions, and defined financial and operational KPIs. A workforce project examined headcount, compensation, performance, hiring, attendance, and tenure to support staffing-focused decisions. In healthcare operations analytics, I mapped connected service information and evaluated completion, workload, costs, billing status, and claims. Across all three projects, I documented assumptions, validated SQL findings, prepared Generative AI-assisted recommendations, and completed Power BI reporting plans.
+
+My earlier roles at Trans Globe Education and Arihant Investment in India strengthened my workflow coordination, administrative reporting, records management, client and institutional communication, and confidential information handling. Graduate coursework in Business Systems Analysis, Business Process Management, Project Management, Enterprise Architecture, and Analytics and Business Decision Making developed my process and technology foundation. My Business Analysis \& Process Management credential reinforces this training.
+
+Parks \& Recreation's transformation portfolio is meaningful to me as a Toronto resident because improved systems and processes can strengthen service delivery across the city. I would bring disciplined analysis, clear documentation, reliable reporting, and dependable stakeholder support while developing deeper enterprise asset-management and municipal transformation knowledge.
+
+Thank you for considering my application. I would welcome the opportunity to discuss my contribution to the Business \& Technology Transformation team.
+
+Best regards,\\[8pt]
+Jainali Mehta
+
+\end{document}
