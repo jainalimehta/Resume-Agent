@@ -12,15 +12,17 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260804-university-of-toronto-special-projects-consultant-v017-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260804-university-of-toronto-special-projects-consultant-v017-cover-letter.pdf)
-- [Editable LaTeX and QA package](applications/20260804-university-of-toronto-special-projects-consultant-v017/)
-- [Special Projects Consultant interview preparation](applications/20260804-university-of-toronto-special-projects-consultant-v017/interview-preparation.md)
+- [Resume PDF](output/pdf/20260804-university-of-toronto-special-projects-consultant-v019-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260804-university-of-toronto-special-projects-consultant-v019-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260804-university-of-toronto-special-projects-consultant-v019/)
+- [Special Projects Consultant interview preparation](applications/20260804-university-of-toronto-special-projects-consultant-v019/interview-preparation.md)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules
 
 The canonical profile is stored in [`skills/tailor-jainali-resume/references/jainali-profile.md`](skills/tailor-jainali-resume/references/jainali-profile.md). The workflow must not invent employment history, dates, credentials, tools, metrics, or project outcomes. The GST adoption research used Google Forms and Microsoft Excel, not IBM SPSS Statistics.
+
+Published project titles are identity-locked as **E-Commerce Sales Analytics**, **Healthcare Patient & Hospital Analytics**, and **HR Analytics**. Tailoring may change their order or omit an irrelevant project, but it must never rename them.
 
 The locked document system follows Jainali's supplied format: a 10-point, one-column US Letter resume using Latin Modern serif, compact rules and bullets, searchable text, and no icons, photos, sidebars, skill bars, or scanned content. Education and Credentials remain separate. The matching cover letter uses the same typography and centered contact header.
 

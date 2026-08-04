@@ -15,6 +15,7 @@ Create one job-specific resume and cover letter from verified facts while preser
 - Education: Master of Business Analytics, Edith Cowan University, Australia, 2023--2025; Integrated Master of Business Administration, Atmiya University, India, 2018--2022.
 - Experience: Data Intern, AYLA Solutions, Australia, 2025; Support Executive, Trans Globe Education, India, 2022--2023; Administrative Executive, Arihant Investment, India, 2020--2021.
 - Portfolio: three published PostgreSQL/SQL analytics repositories covering e-commerce, healthcare, and workforce analytics. Their AI-assisted analysis and recommendations are complete. Their Power BI planning is complete, but interactive dashboards and `.pbix` files are not yet published.
+- Locked published project titles: `E-Commerce Sales Analytics`, `Healthcare Patient & Hospital Analytics`, and `HR Analytics`. Use these titles exactly whenever the projects appear; never rename a project to mimic job-description language.
 - Core verified tools and methods: PostgreSQL, SQL, advanced Microsoft Excel, Excel pivot tables, Google Forms, Power BI planning, relational modelling, data cleaning and validation, KPIs, reporting, requirements gathering, process documentation, stakeholder communication, Agile ceremonies, Git, GitHub Actions, Microsoft Office, and Google Workspace.
 - Explicit exclusions: no Tableau, no IBM SPSS Statistics, no verified phone number, no invented metrics, and no claim of published interactive Power BI dashboards.
 
@@ -105,6 +106,8 @@ Preserve the job description verbatim. Never overwrite an earlier application.
 - Prefer concise action-and-scope bullets. Do not fabricate a result when no measured result is verified.
 - Preserve the distinction between completed SQL/AI work, completed Power BI planning, and unpublished interactive dashboard implementation.
 - Select the strongest verified portfolio evidence for the posting; do not add an older project merely to fill space.
+- Preserve exact project identities. Tailoring may change project order, select relevant verified bullets, or omit a project, but it must never rename `E-Commerce Sales Analytics`, `Healthcare Patient & Hospital Analytics`, or `HR Analytics`.
+- Use `Online GST Filing Adoption Research` only when survey research, public-policy research, adoption analysis, Google Forms, or Excel-based assessment is materially relevant.
 - Keep the page visually full but readable. Remove repetition before removing relevant evidence.
 - A cover letter must connect Jainali's education, Australian internship, portfolio, and earlier process-support experience to the employer's actual needs; it must not merely paraphrase the resume.
 

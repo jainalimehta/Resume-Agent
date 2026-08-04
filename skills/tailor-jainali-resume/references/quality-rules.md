@@ -24,6 +24,7 @@
 - Avoid empty visual rows and one- or two-word wrapped fragments.
 - Rewrite content before reducing font size.
 - Use consistent capitalization for employers, titles, technologies, sections, and project names.
+- Require exact published project titles: `E-Commerce Sales Analytics`, `Healthcare Patient & Hospital Analytics`, and `HR Analytics`; job-specific tailoring must not rename them.
 
 ## Locked Resume Structure
 

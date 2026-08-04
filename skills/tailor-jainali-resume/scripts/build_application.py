@@ -91,6 +91,14 @@ def main() -> None:
             failures.append(f"{pdf.name}: prohibited unsupported Tableau claim found")
         if re.search(r"\b(?:IBM\s+)?SPSS(?:\s+Statistics)?\b", extracted, re.IGNORECASE):
             failures.append(f"{pdf.name}: prohibited unsupported IBM SPSS Statistics claim found")
+        prohibited_project_aliases = (
+            "E-Commerce Sales & Customer Analytics",
+            "Healthcare Operations Analytics",
+            "Workforce & Employee Analytics",
+        )
+        for alias in prohibited_project_aliases:
+            if alias.lower() in extracted.lower():
+                failures.append(f"{pdf.name}: prohibited renamed project title found: {alias}")
         warnings.extend(f"{stem}: {line}" for line in short_line_warnings(extracted))
         run([command("pdftoppm"), "-png", "-r", "150", "-f", "1", "-singlefile", str(pdf), str(qa / stem)])
 

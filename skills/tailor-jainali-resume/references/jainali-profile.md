@@ -76,6 +76,12 @@ Use only the facts in this file. Jainali's direct corrections override older res
 
 ## Technical Portfolio
 
+### Project Identity Lock
+
+- The exact published project titles are `E-Commerce Sales Analytics`, `Healthcare Patient & Hospital Analytics`, and `HR Analytics`.
+- Never replace these titles with descriptive or job-tailored alternatives such as `E-Commerce Sales & Customer Analytics`, `Healthcare Operations Analytics`, or `Workforce & Employee Analytics`.
+- Tailoring may change project order, select verified evidence, or omit an irrelevant project; it may not change a project's identity.
+
 ### E-Commerce Sales Analytics
 
 - Repository: `github.com/jainalimehta/Ecommerce-Sales-Analytics`
@@ -163,6 +169,7 @@ Prohibited until Jainali supplies new evidence:
 - Default to the three current GitHub projects because they provide the strongest direct SQL, KPI, AI-assisted insight, validation, and Power BI planning evidence.
 - Use Bank of Baroda Customer Behaviour Analysis when a posting values banking, customer analytics, transaction analysis, Excel, or SQL.
 - Use Online GST Filing Research when a posting values research design, Google Forms, Excel, pivot tables, percentages, charts, public-sector/tax subject matter, or survey research.
+- Use the exact resume title `Online GST Filing Adoption Research` when this academic research is selected.
 - Mention the International Family Business Conference only when extracurricular, family-business, networking, or conference participation is relevant and space permits.
 - Select ECU coursework to match the job; do not present subjects as credentials.
 
