@@ -24,3 +24,4 @@
 | 020 | 2026-08-04 | University of Toronto | Graduate Office Assistant | [20260804-university-of-toronto-graduate-office-assistant-v020](./20260804-university-of-toronto-graduate-office-assistant-v020/) | verified |
 | 021 | 2026-08-04 | University of Toronto | Business Systems Analyst | [20260804-university-of-toronto-business-systems-analyst-v021](./20260804-university-of-toronto-business-systems-analyst-v021/) | verified |
 | 022 | 2026-08-04 | Deloitte | Business Analyst | [20260804-deloitte-business-analyst-v022](./20260804-deloitte-business-analyst-v022/) | verified |
+| 023 | 2026-08-04 | Scotiabank | Branch Network Planning and Business Analysis | [20260804-scotiabank-branch-network-planning-and-business-analysis-v023](./20260804-scotiabank-branch-network-planning-and-business-analysis-v023/) | verified |
