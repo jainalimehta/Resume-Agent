@@ -15,4 +15,5 @@
 | 011 | 2026-08-03 | City of Toronto | Research Analyst 1 | [20260803-city-of-toronto-research-analyst-1-v011](./20260803-city-of-toronto-research-analyst-1-v011/) | verified |
 | 012 | 2026-08-03 | City of Toronto | Business & Financial Analyst (Data) | [20260803-city-of-toronto-business-financial-analyst-data-v012](./20260803-city-of-toronto-business-financial-analyst-data-v012/) | verified |
 | 013 | 2026-08-03 | City of Toronto | Payroll Program Assistant 1 | [20260803-city-of-toronto-payroll-program-assistant-1-v013](./20260803-city-of-toronto-payroll-program-assistant-1-v013/) | verified |
-| 014 | 2026-08-04 | Ontario Ministry of Transportation | Senior Policy Advisor | [20260804-ontario-ministry-of-transportation-senior-policy-advisor-v014](./20260804-ontario-ministry-of-transportation-senior-policy-advisor-v014/) | verified |
+| 014 | 2026-08-04 | Ontario Ministry of Transportation | Senior Policy Advisor | [20260804-ontario-ministry-of-transportation-senior-policy-advisor-v014](./20260804-ontario-ministry-of-transportation-senior-policy-advisor-v014/) | superseded by 015 due to GST research tool correction |
+| 015 | 2026-08-04 | Ontario Ministry of Transportation | Senior Policy Advisor | [20260804-ontario-ministry-of-transportation-senior-policy-advisor-v015](./20260804-ontario-ministry-of-transportation-senior-policy-advisor-v015/) | verified |

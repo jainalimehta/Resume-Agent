@@ -48,4 +48,5 @@
 - Require exactly one page per PDF.
 - Extract searchable text and reject compatibility ligatures.
 - Resolve every short-line warning.
+- Reject unsupported Tableau and IBM SPSS Statistics claims.
 - Render both PDFs and visually inspect clipping, overlap, spacing, alignment, capitalization, and excessive whitespace.

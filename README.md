@@ -12,15 +12,15 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260804-ontario-ministry-of-transportation-senior-policy-advisor-v014-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260804-ontario-ministry-of-transportation-senior-policy-advisor-v014-cover-letter.pdf)
-- [Editable LaTeX and QA package](applications/20260804-ontario-ministry-of-transportation-senior-policy-advisor-v014/)
-- [Senior Policy Advisor interview preparation](applications/20260804-ontario-ministry-of-transportation-senior-policy-advisor-v014/interview-preparation.md)
+- [Resume PDF](output/pdf/20260804-ontario-ministry-of-transportation-senior-policy-advisor-v015-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260804-ontario-ministry-of-transportation-senior-policy-advisor-v015-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260804-ontario-ministry-of-transportation-senior-policy-advisor-v015/)
+- [Senior Policy Advisor interview preparation](applications/20260804-ontario-ministry-of-transportation-senior-policy-advisor-v015/interview-preparation.md)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules
 
-The canonical profile is stored in [`skills/tailor-jainali-resume/references/jainali-profile.md`](skills/tailor-jainali-resume/references/jainali-profile.md). The workflow must not invent employment history, dates, credentials, tools, metrics, or project outcomes.
+The canonical profile is stored in [`skills/tailor-jainali-resume/references/jainali-profile.md`](skills/tailor-jainali-resume/references/jainali-profile.md). The workflow must not invent employment history, dates, credentials, tools, metrics, or project outcomes. The GST adoption research used Google Forms and Microsoft Excel, not IBM SPSS Statistics.
 
 The locked document system follows Jainali's supplied format: a 10-point, one-column US Letter resume using Latin Modern serif, compact rules and bullets, searchable text, and no icons, photos, sidebars, skill bars, or scanned content. Education and Credentials remain separate. The matching cover letter uses the same typography and centered contact header.
 

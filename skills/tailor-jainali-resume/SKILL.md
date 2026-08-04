@@ -15,8 +15,8 @@ Create one job-specific resume and cover letter from verified facts while preser
 - Education: Master of Business Analytics, Edith Cowan University, Australia, 2023--2025; Integrated Master of Business Administration, Atmiya University, India, 2018--2022.
 - Experience: Data Intern, AYLA Solutions, Australia, 2025; Support Executive, Trans Globe Education, India, 2022--2023; Administrative Executive, Arihant Investment, India, 2020--2021.
 - Portfolio: three published PostgreSQL/SQL analytics repositories covering e-commerce, healthcare, and workforce analytics. Their AI-assisted analysis and recommendations are complete. Their Power BI planning is complete, but interactive dashboards and `.pbix` files are not yet published.
-- Core verified tools and methods: PostgreSQL, SQL, advanced Microsoft Excel, Power BI planning, relational modelling, data cleaning and validation, KPIs, reporting, requirements gathering, process documentation, stakeholder communication, Agile ceremonies, Git, GitHub Actions, Microsoft Office, and Google Workspace.
-- Explicit exclusions: no Tableau, no verified phone number, no invented metrics, and no claim of published interactive Power BI dashboards.
+- Core verified tools and methods: PostgreSQL, SQL, advanced Microsoft Excel, Excel pivot tables, Google Forms, Power BI planning, relational modelling, data cleaning and validation, KPIs, reporting, requirements gathering, process documentation, stakeholder communication, Agile ceremonies, Git, GitHub Actions, Microsoft Office, and Google Workspace.
+- Explicit exclusions: no Tableau, no IBM SPSS Statistics, no verified phone number, no invented metrics, and no claim of published interactive Power BI dashboards.
 
 Read the canonical profile for the full responsibility-level evidence, coursework, credentials, repositories, additional academic projects, activities, safe phrasing, and known unknowns.
 
@@ -91,6 +91,7 @@ Preserve the job description verbatim. Never overwrite an earlier application.
 - Use Master of Business Analytics, Edith Cowan University, 2023-2025.
 - Use Integrated Master of Business Administration, Atmiya University, 2018-2022.
 - Never list Tableau.
+- Never list IBM SPSS Statistics. The Online GST Filing Adoption Research used Google Forms and Microsoft Excel, including formulas, sorting, filtering, pivot tables, percentages, and charts.
 - Omit phone until a current Canadian number is verified.
 - Keep Education and Credentials separate.
 - Do not invent metrics, outcomes, dates, tools, credentials, or responsibilities.

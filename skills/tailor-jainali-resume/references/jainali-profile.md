@@ -30,7 +30,7 @@ Use only the facts in this file. Jainali's direct corrections override older res
 
 - Truthful baseline: Business Analytics graduate and early-career analyst with Australian Data Intern experience, supported by Indian process, documentation, and administrative experience.
 - Strongest Business Analyst evidence: requirements gathering, reporting requirements, process documentation, workflow coordination, stakeholder communication, Agile planning/reviews, Business Systems Analysis, and Business Process Management.
-- Strongest Data Analyst evidence: PostgreSQL, SQL, advanced Excel, relational modelling, data cleaning and validation, KPI definition, CTEs, window functions, rankings, segmentation, running totals, lag comparisons, and decision-focused reporting.
+- Strongest Data Analyst evidence: PostgreSQL, SQL, advanced Excel, Excel pivot tables, Google Forms, relational modelling, data cleaning and validation, KPI definition, CTEs, window functions, rankings, segmentation, running totals, lag comparisons, and decision-focused reporting.
 - Strongest BI evidence: Power BI dashboard planning, visualization requirements, KPI/report design, and completed AI-assisted interpretation of validated SQL findings.
 - Seniority guardrail: use `early-career`, `entry-level`, `graduate`, or `Data Intern foundation`; never imply years of analyst employment or senior ownership.
 
@@ -123,15 +123,18 @@ Use only the facts in this file. Jainali's direct corrections override older res
 
 - Date: June-December 2021
 - Studied taxpayer acceptance of online GST filing among small businesses in Gujarat.
-- Designed surveys, analyzed responses using SPSS, and earned an A grade.
+- Designed and conducted a Google Forms survey examining acceptance and use of online GST filing.
+- Cleaned, organized, and analyzed survey responses in Microsoft Excel using formulas, sorting, filtering, pivot tables, percentages, and charts.
+- Identified adoption patterns and common barriers, documented findings and recommendations, and earned an A grade.
+- Did not use IBM SPSS Statistics for this project.
 
 ## Skills
 
-- Data and BI: PostgreSQL, SQL, Microsoft Excel (advanced), Power BI
+- Data and BI: PostgreSQL, SQL, Microsoft Excel (advanced), Excel pivot tables, Google Forms, Power BI
 - Analytics: relational data modelling, data cleaning, data visualization, KPI reporting, dashboard development, statistics, CTEs, window functions
 - Business analysis: requirements gathering, process mapping, documentation, stakeholder communication, Agile ceremonies
 - Delivery: Git, GitHub Actions, Microsoft Office, Google Workspace
-- Explicit exclusion: Jainali has not worked with Tableau; never list it
+- Explicit exclusions: Jainali has not worked with Tableau or IBM SPSS Statistics; never list either tool
 
 ## Safe and Prohibited Claims
 
@@ -145,6 +148,7 @@ Safe when relevant:
 Prohibited until Jainali supplies new evidence:
 
 - Tableau experience
+- IBM SPSS Statistics experience
 - published or implemented interactive Power BI dashboards
 - `.pbix` portfolio deliverables
 - fabricated percentages, savings, volumes, turnaround improvements, team sizes, or stakeholder counts
@@ -158,7 +162,7 @@ Prohibited until Jainali supplies new evidence:
 
 - Default to the three current GitHub projects because they provide the strongest direct SQL, KPI, AI-assisted insight, validation, and Power BI planning evidence.
 - Use Bank of Baroda Customer Behaviour Analysis when a posting values banking, customer analytics, transaction analysis, Excel, or SQL.
-- Use Online GST Filing Research when a posting values research design, surveys, SPSS, public-sector/tax subject matter, or qualitative/quantitative research.
+- Use Online GST Filing Research when a posting values research design, Google Forms, Excel, pivot tables, percentages, charts, public-sector/tax subject matter, or survey research.
 - Mention the International Family Business Conference only when extracurricular, family-business, networking, or conference participation is relevant and space permits.
 - Select ECU coursework to match the job; do not present subjects as credentials.
 
@@ -171,6 +175,7 @@ Prohibited until Jainali supplies new evidence:
 - Education dates and degree names were verified from Jainali's supplied source material and direct corrections.
 - The locked resume structure comes from Jainali's Codex attachment `7d512484-66d1-4a59-9772-09e1c09f05ed/pasted-text.txt`; placeholders in that attachment must always be replaced with the verified facts in this profile.
 - Direct user correction establishes `Data Intern` as the AYLA Solutions title and removes Tableau.
+- Direct user correction on August 4, 2026 establishes that Online GST Filing Adoption Research used Google Forms and Microsoft Excel formulas, sorting, filtering, pivot tables, percentages, and charts, and did not use IBM SPSS Statistics.
 - Direct user correction establishes that all three portfolio projects contain Power BI planning sections and completed AI sections.
 - GitHub inspection on August 1, 2026 verified `AI Analysis/ai_insights.md`, `ai_prompts.md`, and `business_recommendations.md` in every repository. Those files include Power BI dashboard-planning sections while describing dashboard implementation as a next stage.
 - GitHub repository content supports the technical portfolio claims.

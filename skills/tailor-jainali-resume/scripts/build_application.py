@@ -89,6 +89,8 @@ def main() -> None:
             failures.append(f"{pdf.name}: compatibility ligatures found")
         if re.search(r"\bTableau\b", extracted, re.IGNORECASE):
             failures.append(f"{pdf.name}: prohibited unsupported Tableau claim found")
+        if re.search(r"\b(?:IBM\s+)?SPSS(?:\s+Statistics)?\b", extracted, re.IGNORECASE):
+            failures.append(f"{pdf.name}: prohibited unsupported IBM SPSS Statistics claim found")
         warnings.extend(f"{stem}: {line}" for line in short_line_warnings(extracted))
         run([command("pdftoppm"), "-png", "-r", "150", "-f", "1", "-singlefile", str(pdf), str(qa / stem)])
 
