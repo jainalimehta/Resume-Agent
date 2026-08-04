@@ -1,0 +1,71 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[margin=0.68in,top=0.52in,bottom=0.52in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt plus 1pt minus 1pt}
+\raggedright
+\urlstyle{same}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\definecolor{ink}{HTML}{111111}
+\color{ink}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{17}{19}\selectfont\textbf{Jainali Mehta}}\par\vspace{2pt}
+  \small Toronto, Ontario, Canada \;|\;
+  \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com} \;|\;
+  \href{https://www.linkedin.com/in/jainali-mehta}{LinkedIn} \;|\;
+  \href{https://github.com/jainalimehta}{GitHub}
+\end{center}
+\vspace{-5pt}
+\noindent\rule{\textwidth}{0.4pt}
+
+August 4, 2026
+
+\textbf{Hiring Manager}\\
+Tata Consultancy Services Canada Inc.\\
+Toronto, ON
+
+Dear Hiring Manager,
+
+I am applying for TCS Canada's enterprise Power BI and SQL opportunity in Toronto. The supplied description does not state a formal title, so I am referring to its documented BI scope. I completed a Master of Business Analytics at Edith Cowan University in Australia after earning an Integrated Master of Business Administration at Atmiya University in India, and I now reside in Toronto. I offer an early-career foundation in requirements documentation, PostgreSQL, SQL, relational modelling, data validation, Agile collaboration, and business-focused reporting.
+
+As a Data Intern at AYLA Solutions in Australia, I gathered and documented business and reporting requirements, translated stakeholder questions into structured analytical tasks, supported SQL extraction and validation, and prepared advanced Excel reports and dashboard insights. Through Agile sprint planning and reviews, I communicated progress and maintained accurate analytical documentation. This experience developed the discipline to connect stakeholder needs, data logic, validation, and reporting outputs.
+
+My three published projects demonstrate relational modelling and repeatable analytical delivery. E-Commerce Sales Analytics applies keys, constraints, controlled revenue definitions, SQL analysis, and GitHub Actions checks across customer, product, order, and payment data. Healthcare Patient \& Hospital Analytics uses CTEs and window functions across operational and financial records, while HR Analytics structures workforce, compensation, performance, and attendance data. Each repository includes validation, AI-assisted recommendations grounded in SQL outputs, and completed Power BI KPI and dashboard planning.
+
+I want to represent my current capability precisely: my Power BI evidence is dashboard and KPI planning, not production dashboard deployment. I have not yet worked with DAX, Power Query, RLS, Power BI Service, Kyvos, or Azure data services. My immediate value is in SQL, data modelling, validation, requirements, documentation, and learning discipline. Coursework in Databases and Business Intelligence, Enterprise Architecture, Machine Learning, and Project Management supports that foundation.
+
+I am drawn to TCS because its AI-led ambition, inclusive culture, global client work, and commitment to continuous learning create an environment where technical capability can grow through disciplined delivery. I would welcome the opportunity to contribute my verified SQL and analytics foundation while developing the enterprise BI skills required by the team.
+
+Thank you for your time and consideration. I look forward to discussing how I could contribute to your team.
+
+Best regards,\\[8pt]
+Jainali Mehta
+
+\end{document}
