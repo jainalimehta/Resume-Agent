@@ -1,0 +1,133 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[margin=0.52in,top=0.42in,bottom=0.42in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\raggedright
+\urlstyle{same}
+\emergencystretch=1em
+
+\definecolor{ink}{HTML}{111111}
+\color{ink}
+
+\titleformat{\section}
+  {\bfseries\scshape\normalsize}
+  {}{0pt}{}
+  [\vspace{1.2pt}\titlerule]
+\titlespacing*{\section}{0pt}{5.2pt}{3.2pt}
+
+\setlist[itemize]{
+  leftmargin=0.16in,
+  label=\textbullet,
+  topsep=1.2pt,
+  itemsep=1.2pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\newcommand{\role}[4]{%
+  \begin{tabularx}{\textwidth}{@{}Xr@{}}
+    \textbf{#1} & \textbf{#2} \\
+    \textit{#3} & \textit{#4}
+  \end{tabularx}\vspace{-1pt}
+}
+
+\newcommand{\project}[2]{%
+  \begin{tabularx}{\textwidth}{@{}Xr@{}}
+    \textbf{#1} & \textit{#2}
+  \end{tabularx}\vspace{-1pt}
+}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{17}{19}\selectfont\textbf{Jainali Mehta}}\\[2pt]
+  \small Toronto, Ontario, Canada \;|\;
+  \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com} \;|\;
+  \href{https://www.linkedin.com/in/jainali-mehta}{LinkedIn} \;|\;
+  \href{https://github.com/jainalimehta}{GitHub}
+\end{center}
+\vspace{-7pt}
+
+\section{Professional Summary}
+\small Administrative support and analytics professional with experience assisting students, clients, and educational institutions through accurate records, application and process updates, reporting, workflow coordination, and responsive communication. Brings advanced Excel reporting, confidential record handling, international education experience, and a careful service-oriented approach.
+
+\section{Core Competencies}
+\begin{itemize}[leftmargin=0.16in,label=\textbullet,topsep=0pt,itemsep=1pt,parsep=0pt]
+  \item \small \textbf{Student \& Client Support:} Student and institutional communication, application and process updates, client service, stakeholder response, market research, and dependable follow-through.
+  \item \small \textbf{Records \& Administration:} Documentation, data entry, file and record maintenance, administrative reporting, workflow coordination, confidentiality, accuracy, and operational support.
+  \item \small \textbf{Data \& Reporting:} Advanced Excel, pivot tables, PostgreSQL, SQL, Google Forms, data cleaning, validation, database reporting, KPI definition, charts, and recommendations.
+  \item \small \textbf{Digital Tools:} Microsoft Office, Google Workspace, GitHub, structured documentation, reporting requirements, and Agile planning and reviews.
+\end{itemize}
+
+\section{Professional Experience}
+\role{AYLA Solutions}{Australia}{Data Intern}{2025}
+\begin{itemize}
+  \item Gathered and documented business and reporting requirements; translated stakeholder questions into structured analytical tasks and reporting outputs.
+  \item Supported SQL extraction and validation, prepared advanced Excel reports, and maintained accurate analytical documentation through Agile planning and reviews.
+\end{itemize}
+\vspace{1pt}
+
+\role{Trans Globe Education}{India}{Support Executive}{2022--2023}
+\begin{itemize}
+  \item Managed student and client documentation and maintained accurate records; coordinated application and process updates with students and educational institutions.
+  \item Supported administrative reporting and workflow management while keeping information organized for ongoing service activities.
+  \item Supported client communication and market research while responding carefully to stakeholder needs.
+\end{itemize}
+\vspace{1pt}
+
+\role{Arihant Investment}{India}{Administrative Executive}{2020--2021}
+\begin{itemize}
+  \item Handled data entry, documentation, and confidential client-record maintenance with close attention to accuracy.
+  \item Supported daily operations and client communication while maintaining reliable business information and records.
+\end{itemize}
+
+\section{Business Analytics Projects}
+\project{\href{https://github.com/jainalimehta/HR-Analytics}{HR Analytics}}{PostgreSQL, SQL, Database Reporting}
+\begin{itemize}
+  \item Built a normalized database spanning departments, employees, salaries, performance reviews, and attendance with data-quality controls and repeatable validation.
+  \item Compiled and analyzed workforce records using SQL; documented headcount, performance, attendance, hiring, tenure, findings, and reporting requirements.
+\end{itemize}
+\vspace{1pt}
+
+\project{Online GST Filing Adoption Research}{Excel, Google Forms, Survey Reporting}
+\begin{itemize}
+  \item Designed and conducted a Google Forms survey of small businesses in Gujarat, India, examining acceptance and use of online GST filing from June to December 2021.
+  \item Organized and analyzed responses in Excel using formulas, sorting, filtering, pivot tables, percentages, and charts; documented findings and recommendations and received an A grade.
+\end{itemize}
+
+\section{Education}
+\role{Edith Cowan University}{Australia}{Master of Business Analytics}{2023--2025}
+\small\textbf{Relevant Coursework:} Databases and Business Intelligence, Business Systems Analysis, Business Process Management, Analytics and Business Decision Making, Project Management.\\[2pt]
+\role{Atmiya University}{India}{Integrated Master of Business Administration}{2018--2022}
+
+\section{Credentials}
+\small\textbf{Business Analysis \& Process Management} -- Coursera Project Network, June 2025; Credential ID: WV4JMS14XVV6.\\[-0.2pt]
+\small\textbf{NISM Series XII -- Securities Markets Foundation}
+
+\end{document}
