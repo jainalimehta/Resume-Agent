@@ -12,10 +12,10 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260804-university-of-toronto-program-coordinator-international-student-development-programs-v016-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260804-university-of-toronto-program-coordinator-international-student-development-programs-v016-cover-letter.pdf)
-- [Editable LaTeX and QA package](applications/20260804-university-of-toronto-program-coordinator-international-student-development-programs-v016/)
-- [Program Coordinator interview preparation](applications/20260804-university-of-toronto-program-coordinator-international-student-development-programs-v016/interview-preparation.md)
+- [Resume PDF](output/pdf/20260804-university-of-toronto-special-projects-consultant-v017-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260804-university-of-toronto-special-projects-consultant-v017-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260804-university-of-toronto-special-projects-consultant-v017/)
+- [Special Projects Consultant interview preparation](applications/20260804-university-of-toronto-special-projects-consultant-v017/interview-preparation.md)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules
