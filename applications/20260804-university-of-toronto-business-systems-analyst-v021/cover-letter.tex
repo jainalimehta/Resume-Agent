@@ -1,0 +1,73 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[margin=0.68in,top=0.52in,bottom=0.52in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt plus 1pt minus 1pt}
+\raggedright
+\urlstyle{same}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\definecolor{ink}{HTML}{111111}
+\color{ink}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{17}{19}\selectfont\textbf{Jainali Mehta}}\par\vspace{2pt}
+  \small Toronto, Ontario, Canada \;|\;
+  \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com} \;|\;
+  \href{https://www.linkedin.com/in/jainali-mehta}{LinkedIn} \;|\;
+  \href{https://github.com/jainalimehta}{GitHub}
+\end{center}
+\vspace{-5pt}
+\noindent\rule{\textwidth}{0.4pt}
+
+August 4, 2026
+
+\textbf{Hiring Manager}\\
+University of Toronto\\
+Capital Projects Division\\
+University Planning, Design and Construction\\
+St. George Campus, Toronto, ON
+
+Dear Hiring Manager,
+
+I am applying for the Business Systems Analyst position (Req ID 49513) with Capital Projects. I bring an early-career foundation in requirements documentation, relational data modelling, data-quality controls, SQL, advanced Excel reporting, KPI definition, Power BI planning, and stakeholder communication. I completed a Master of Business Analytics at Edith Cowan University in Australia after earning an Integrated Master of Business Administration at Atmiya University in India, and I now reside in Toronto.
+
+As a Data Intern at AYLA Solutions in Australia, I gathered and documented business and reporting requirements, translated stakeholder questions into structured analytical tasks, supported SQL extraction and validation, and prepared advanced Excel reports and dashboard insights. Through Agile sprint planning and reviews, I communicated progress and maintained analytical documentation. This experience developed the core discipline required to connect user questions, data requirements, and reporting outputs.
+
+My three published projects demonstrate systems-oriented data work under their exact repository titles. E-Commerce Sales Analytics uses primary and foreign keys, uniqueness rules, checks, controlled revenue definitions, automated validation, and operational KPIs. Healthcare Patient \& Hospital Analytics applies integrity constraints and reporting logic across clinical and financial records. HR Analytics structures department, employee, salary, performance, and attendance data with validation and workforce reporting. All three include completed AI-assisted interpretation and Power BI dashboard planning; interactive dashboard implementation remains a future stage.
+
+Earlier roles at Trans Globe Education and Arihant Investment strengthened my workflow coordination, administrative reporting, client communication, accurate documentation, and confidential record handling. Coursework in Business Systems Analysis, Databases and Business Intelligence, Enterprise Architecture, Business Process Management, and Project Management further developed my understanding of requirements, governance, processes, and system alignment.
+
+I am drawn to University Planning, Design and Construction because the role combines project governance, reliable systems, accurate reporting, and cross-functional support for the University's capital program. I would bring careful requirements analysis, data-quality discipline, clear documentation, and responsive stakeholder support while learning the University's PMIS configuration and capital-project framework from experienced colleagues.
+
+Thank you for your time and consideration. I look forward to discussing how I could contribute to your team.
+
+Best regards,\\[8pt]
+Jainali Mehta
+
+\end{document}
