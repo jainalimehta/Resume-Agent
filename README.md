@@ -12,10 +12,10 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260804-university-of-toronto-business-systems-analyst-v021-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260804-university-of-toronto-business-systems-analyst-v021-cover-letter.pdf)
-- [Editable LaTeX and QA package](applications/20260804-university-of-toronto-business-systems-analyst-v021/)
-- [Business Systems Analyst interview preparation](applications/20260804-university-of-toronto-business-systems-analyst-v021/interview-preparation.md)
+- [Resume PDF](output/pdf/20260804-deloitte-business-analyst-v022-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260804-deloitte-business-analyst-v022-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260804-deloitte-business-analyst-v022/)
+- [Deloitte Business Analyst interview preparation](applications/20260804-deloitte-business-analyst-v022/interview-preparation.md)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules
