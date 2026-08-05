@@ -35,3 +35,4 @@
 | 031 | 2026-08-05 | First National Financial LP | Analyst, Commercial Financing | [20260805-first-national-financial-lp-analyst-commercial-financing-v031](./20260805-first-national-financial-lp-analyst-commercial-financing-v031/) | verified |
 | 032 | 2026-08-05 | SHEIN | Data Analyst | [20260805-shein-data-analyst-v032](./20260805-shein-data-analyst-v032/) | verified |
 | 033 | 2026-08-05 | goeasy | Insights Analyst | [20260805-goeasy-insights-analyst-v033](./20260805-goeasy-insights-analyst-v033/) | verified |
+| 034 | 2026-08-05 | TD Insurance | Business Insight Analyst | [20260805-td-insurance-business-insight-analyst-v034](./20260805-td-insurance-business-insight-analyst-v034/) | verified |
