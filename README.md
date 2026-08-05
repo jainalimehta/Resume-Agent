@@ -12,10 +12,10 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260805-fdm-group-fdm-consultant-change-and-transformation-v026-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260805-fdm-group-fdm-consultant-change-and-transformation-v026-cover-letter.pdf)
-- [Editable LaTeX and QA package](applications/20260805-fdm-group-fdm-consultant-change-and-transformation-v026/)
-- [FDM Consultant interview preparation](applications/20260805-fdm-group-fdm-consultant-change-and-transformation-v026/interview-preparation.md)
+- [Resume PDF](output/pdf/20260805-accenture-australia-business-analyst-v027-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260805-accenture-australia-business-analyst-v027-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260805-accenture-australia-business-analyst-v027/)
+- [Accenture Business Analyst interview preparation](applications/20260805-accenture-australia-business-analyst-v027/interview-preparation.md)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules

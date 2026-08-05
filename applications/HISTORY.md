@@ -28,3 +28,4 @@
 | 024 | 2026-08-04 | Altis Recruitment | Business Analyst, Parking Development | [20260804-altis-recruitment-business-analyst-parking-development-v024](./20260804-altis-recruitment-business-analyst-parking-development-v024/) | verified |
 | 025 | 2026-08-04 | Tata Consultancy Services Canada | Power BI Developer | [20260804-tata-consultancy-services-canada-power-bi-developer-v025](./20260804-tata-consultancy-services-canada-power-bi-developer-v025/) | verified |
 | 026 | 2026-08-05 | FDM Group | FDM Consultant - Change and Transformation | [20260805-fdm-group-fdm-consultant-change-and-transformation-v026](./20260805-fdm-group-fdm-consultant-change-and-transformation-v026/) | verified |
+| 027 | 2026-08-05 | Accenture Australia | Business Analyst | [20260805-accenture-australia-business-analyst-v027](./20260805-accenture-australia-business-analyst-v027/) | verified |
