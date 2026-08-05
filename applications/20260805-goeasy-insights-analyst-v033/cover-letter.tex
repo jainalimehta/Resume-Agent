@@ -1,0 +1,70 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[margin=0.68in,top=0.52in,bottom=0.52in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt plus 1pt minus 1pt}
+\raggedright
+\urlstyle{same}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\definecolor{ink}{HTML}{111111}
+\color{ink}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{17}{19}\selectfont\textbf{Jainali Mehta}}\par\vspace{2pt}
+  \small Toronto, Ontario, Canada \;|\;
+  \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com} \;|\;
+  \href{https://www.linkedin.com/in/jainali-mehta}{LinkedIn} \;|\;
+  \href{https://github.com/jainalimehta}{GitHub}
+\end{center}
+\vspace{-5pt}
+\noindent\rule{\textwidth}{0.4pt}
+
+August 5, 2026
+
+\textbf{Hiring Manager, Insights Team}\\
+goeasy --- Mississauga, Ontario
+
+Dear Hiring Manager,
+
+I am applying for the Insights Analyst position with goeasy in Mississauga. I currently live in Toronto, Canada; I completed my Master of Business Analytics at Edith Cowan University in Australia and my Integrated Master of Business Administration at Atmiya University in India. I offer an early-career foundation in advanced Excel, PostgreSQL, SQL, KPI reporting, data validation, business analysis, and stakeholder communication.
+
+As a Data Intern at AYLA Solutions in Australia, I gathered and documented business and reporting requirements, translated stakeholder questions into structured analytical tasks, supported SQL extraction and validation, and prepared advanced Excel reports and dashboard insights for performance tracking. Agile sessions strengthened my progress communication, responsiveness to evolving requirements, and documentation accuracy.
+
+My E-Commerce Sales Analytics project demonstrates how I translate complex data into decision-focused insights. I connected customers, products, orders, line items, and payments; established controlled revenue rules; and analyzed customer spend, order frequency, product rankings, monthly revenue, and payment methods. I used joins, CTEs, segmentation, rankings, running totals, and window functions, then documented AI-assisted insights and recommendations grounded in validated SQL outputs. Healthcare and HR projects add cost, billing, claims, workload, compensation, attendance, and performance analysis.
+
+Earlier roles at Trans Globe Education and Arihant Investment in India strengthened my process coordination, reporting support, confidential-record handling, client communication, and attention to accuracy. My NISM Series XII -- Securities Markets Foundation credential adds introductory financial-market context, while graduate coursework in Analytics and Business Decision Making, Databases and Business Intelligence, and Machine Learning supports my quantitative foundation.
+
+My Power BI evidence is dashboard and KPI planning rather than published interactive implementation, and my strongest hands-on tools are SQL and advanced Excel. I am drawn to goeasy's mission of helping Canadians access credit and build a better financial future, as well as its emphasis on data-driven decisions, collaboration, and employee growth. I would welcome the opportunity to contribute disciplined analysis, clear recommendations, and dependable stakeholder support.
+
+Thank you for your time and consideration. I look forward to discussing how I could contribute to your team.
+
+Best regards,\\[8pt]
+Jainali Mehta
+
+\end{document}

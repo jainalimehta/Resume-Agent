@@ -12,10 +12,10 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260805-shein-data-analyst-v032-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260805-shein-data-analyst-v032-cover-letter.pdf)
-- [Editable LaTeX and QA package](applications/20260805-shein-data-analyst-v032/)
-- [SHEIN Data Analyst interview preparation](applications/20260805-shein-data-analyst-v032/interview-preparation.md)
+- [Resume PDF](output/pdf/20260805-goeasy-insights-analyst-v033-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260805-goeasy-insights-analyst-v033-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260805-goeasy-insights-analyst-v033/)
+- [goeasy Insights Analyst interview preparation](applications/20260805-goeasy-insights-analyst-v033/interview-preparation.md)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules
