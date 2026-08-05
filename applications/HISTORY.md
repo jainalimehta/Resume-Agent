@@ -31,3 +31,4 @@
 | 027 | 2026-08-05 | Accenture Australia | Business Analyst | [20260805-accenture-australia-business-analyst-v027](./20260805-accenture-australia-business-analyst-v027/) | verified |
 | 028 | 2026-08-05 | Capital One Canada | Associate, Strategy Analyst - New Grad 2026 | [20260805-capital-one-canada-associate-strategy-analyst-new-grad-2026-v028](./20260805-capital-one-canada-associate-strategy-analyst-new-grad-2026-v028/) | verified |
 | 029 | 2026-08-05 | First National Financial LP | Operations Analyst II, Risk Management | [20260805-first-national-financial-lp-operations-analyst-ii-risk-management-v029](./20260805-first-national-financial-lp-operations-analyst-ii-risk-management-v029/) | verified |
+| 030 | 2026-08-05 | Cidel | Operations Analyst | [20260805-cidel-operations-analyst-v030](./20260805-cidel-operations-analyst-v030/) | verified |
