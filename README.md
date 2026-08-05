@@ -12,10 +12,10 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260805-td-insurance-business-insight-analyst-v034-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260805-td-insurance-business-insight-analyst-v034-cover-letter.pdf)
-- [Editable LaTeX and QA package](applications/20260805-td-insurance-business-insight-analyst-v034/)
-- [TD Insurance Business Insight Analyst interview preparation](applications/20260805-td-insurance-business-insight-analyst-v034/interview-preparation.md)
+- [Resume PDF](output/pdf/20260805-redion-jr-data-ai-analyst-v035-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260805-redion-jr-data-ai-analyst-v035-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260805-redion-jr-data-ai-analyst-v035/)
+- [Redion Jr. Data & AI Analyst interview preparation](applications/20260805-redion-jr-data-ai-analyst-v035/interview-preparation.md)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules

@@ -1,0 +1,72 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[margin=0.68in,top=0.52in,bottom=0.52in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt plus 1pt minus 1pt}
+\raggedright
+\urlstyle{same}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\definecolor{ink}{HTML}{111111}
+\color{ink}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{17}{19}\selectfont\textbf{Jainali Mehta}}\par\vspace{2pt}
+  \small Toronto, Ontario, Canada \;|\;
+  \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com} \;|\;
+  \href{https://www.linkedin.com/in/jainali-mehta}{LinkedIn} \;|\;
+  \href{https://github.com/jainalimehta}{GitHub}
+\end{center}
+\vspace{-5pt}
+\noindent\rule{\textwidth}{0.4pt}
+
+August 5, 2026
+
+\textbf{Hiring Manager}\\
+Redion, part of Generali Group --- Toronto, Ontario
+
+Dear Hiring Manager,
+
+I am applying for the Jr. Data \& AI Analyst position with Redion. I currently live in Toronto, Canada; I completed my Master of Business Analytics at Edith Cowan University in Australia and my Integrated Master of Business Administration at Atmiya University in India. I offer an early-career foundation in PostgreSQL, SQL, advanced Excel, relational modelling, data validation, KPI reporting, Power BI planning, AI-assisted analysis, stakeholder communication, and documentation.
+
+As a Data Intern at AYLA Solutions in Australia, I gathered and documented business, data, and reporting requirements, translated stakeholder questions into analytical tasks, supported SQL extraction and validation, and prepared advanced Excel reports and dashboard insights for performance tracking. Agile planning and review sessions strengthened my progress communication, responsiveness, and analytical documentation.
+
+My Healthcare Patient \& Hospital Analytics project provides relevant claims-data evidence. I modelled appointments, treatments, billing, and insurance claims in PostgreSQL; analyzed completion, costs, billing status, workload, and claims; and documented assumptions, repeatable validation, and AI-assisted recommendations grounded in SQL outputs. E-commerce and HR projects add relational modelling, integrity controls, GitHub Actions, KPI analysis, and Power BI dashboard planning. Interactive dashboard implementation remains the next stage.
+
+My graduate coursework in Databases and Business Intelligence, Machine Learning, Enterprise Architecture, Business Systems Analysis, and Analytics and Business Decision Making supports my technical and analytical foundation. Earlier roles in India strengthened my process coordination, confidential record handling, client communication, and attention to data accuracy.
+
+I want to be precise about my present level. I have not used AWS Redshift, Glue, SageMaker, Microsoft Fabric, Dataflow Gen2, DAX, Power Query, Python, or deployed predictive models, and I have not built published interactive Power BI dashboards. My strongest hands-on tools are SQL and advanced Excel. I would contribute disciplined validation, relational-data reasoning, claims-related portfolio context, clear documentation, and a structured approach to learning Redion's cloud and BI environment.
+
+Redion's combination of technology-enabled insurance and assistance, international collaboration, agile local growth, and a culture of care makes this opportunity compelling. I would welcome the chance to support reliable data flows and decision-focused reporting while developing under the Head of IT and Lead Data \& Business Analyst.
+
+Thank you for your time and consideration. I look forward to discussing how I could contribute to your team.
+
+Best regards,\\[8pt]
+Jainali Mehta
+
+\end{document}
