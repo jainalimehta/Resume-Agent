@@ -1,0 +1,70 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[margin=0.68in,top=0.52in,bottom=0.52in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt plus 1pt minus 1pt}
+\raggedright
+\urlstyle{same}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\definecolor{ink}{HTML}{111111}
+\color{ink}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{17}{19}\selectfont\textbf{Jainali Mehta}}\par\vspace{2pt}
+  \small Toronto, Ontario, Canada \;|\;
+  \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com} \;|\;
+  \href{https://www.linkedin.com/in/jainali-mehta}{LinkedIn} \;|\;
+  \href{https://github.com/jainalimehta}{GitHub}
+\end{center}
+\vspace{-5pt}
+\noindent\rule{\textwidth}{0.4pt}
+
+August 5, 2026
+
+\textbf{Hiring Manager, FDM Group}\\
+Toronto, ON / Canada
+
+Dear Hiring Manager,
+
+I am applying for the FDM Consultant -- Change \& Transformation opportunity. I completed a Master of Business Analytics at Edith Cowan University in Australia after earning an Integrated Master of Business Administration at Atmiya University in India, and I now reside in Toronto. I am particularly interested in the Business Systems Analyst and Business Analyst pathways because they align with my verified foundation in requirements, processes, data, validation, reporting, and stakeholder communication.
+
+As a Data Intern at AYLA Solutions in Australia, I gathered and documented business and reporting requirements, translated stakeholder questions into structured analytical tasks, supported SQL extraction and validation, and prepared advanced Excel reports and dashboard insights. Through Agile sprint planning and reviews, I communicated progress and maintained accurate analytical documentation. This experience developed my ability to bridge business questions, data logic, reporting outputs, and collaborative delivery.
+
+My three published projects demonstrate hands-on systems and data analysis. E-Commerce Sales Analytics applies keys, constraints, controlled business definitions, SQL analysis, validation, and GitHub Actions across customer, product, order, and payment data. Healthcare Patient \& Hospital Analytics and HR Analytics use relational models, CTEs, window functions, and repeatable validation to answer operational and workforce questions. Each repository includes documented assumptions, AI-assisted recommendations grounded in SQL outputs, and completed Power BI KPI and dashboard planning.
+
+Earlier roles at Trans Globe Education and Arihant Investment strengthened my workflow coordination, reporting support, client communication, record accuracy, and confidential information handling. Coursework in Business Systems Analysis, Business Process Management, Project Management, Enterprise Architecture, and Databases and Business Intelligence further developed my understanding of requirements, processes, systems, and delivery quality.
+
+FDM's structured coaching, practice-based learning, and assignments across banking, consulting, retail, and insurance offer the combination of skill development and real client contribution I am seeking. I would bring analytical discipline, curiosity, dependable documentation, and a willingness to learn while developing the user-story, acceptance-criteria, testing, and application-lifecycle capabilities expected of an assignment-ready consultant.
+
+Thank you for your time and consideration. I look forward to discussing how I could contribute to your team.
+
+Best regards,\\[8pt]
+Jainali Mehta
+
+\end{document}
