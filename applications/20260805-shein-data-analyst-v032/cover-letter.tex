@@ -1,0 +1,70 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[margin=0.68in,top=0.52in,bottom=0.52in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt plus 1pt minus 1pt}
+\raggedright
+\urlstyle{same}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\definecolor{ink}{HTML}{111111}
+\color{ink}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{17}{19}\selectfont\textbf{Jainali Mehta}}\par\vspace{2pt}
+  \small Toronto, Ontario, Canada \;|\;
+  \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com} \;|\;
+  \href{https://www.linkedin.com/in/jainali-mehta}{LinkedIn} \;|\;
+  \href{https://github.com/jainalimehta}{GitHub}
+\end{center}
+\vspace{-5pt}
+\noindent\rule{\textwidth}{0.4pt}
+
+August 5, 2026
+
+\textbf{Hiring Manager, Data Analytics}\\
+SHEIN --- Vaughan, Ontario
+
+Dear Hiring Manager,
+
+I am applying for the Data Analyst position with SHEIN in Vaughan. I currently live in Toronto, Canada; my Master of Business Analytics was completed at Edith Cowan University in Australia, and my Integrated Master of Business Administration was completed at Atmiya University in India. I offer an early-career foundation in advanced Excel, PostgreSQL, SQL, KPI reporting, data validation, process documentation, and stakeholder communication.
+
+As a Data Intern at AYLA Solutions in Australia, I gathered and documented business and reporting requirements, translated stakeholder questions into structured analytical tasks, supported SQL extraction and validation, and prepared advanced Excel reports and dashboard insights for performance tracking. Agile sessions strengthened my progress communication, documentation, and responsiveness to evolving requirements.
+
+My E-Commerce Sales Analytics project is directly relevant to SHEIN's data-intensive operating environment. I connected customers, products, orders, line items, and payments in PostgreSQL; established controlled revenue rules; and analyzed order frequency, customer spend, product rankings, monthly revenue, and payment methods. I used joins, CTEs, segmentation, rankings, running totals, and window functions, then converted validated findings into business recommendations and structured Power BI KPI and dashboard planning. My healthcare and HR projects add cost, workload, compensation, attendance, and performance analysis.
+
+Graduate coursework in Supply Chain Analytics, Analytics and Business Decision Making, Databases and Business Intelligence, Business Process Management, and Project Management supports my understanding of operational decisions and continuous improvement. Earlier roles in India developed my record accuracy, document management, workflow coordination, client communication, and ability to prioritize administrative work.
+
+My experience is an adjacent analytics foundation rather than direct logistics, customs-compliance, or budgeting employment. I would bring disciplined analysis, transparent assumptions, careful documentation, and the learning agility to develop those domain capabilities. SHEIN's technology-enabled on-demand supply chain and focus on improving resource and logistics efficiency make this an especially compelling environment in which to contribute and develop as an analyst.
+
+Thank you for your time and consideration. I look forward to discussing how I could contribute to your team.
+
+Best regards,\\[8pt]
+Jainali Mehta
+
+\end{document}

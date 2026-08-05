@@ -33,3 +33,4 @@
 | 029 | 2026-08-05 | First National Financial LP | Operations Analyst II, Risk Management | [20260805-first-national-financial-lp-operations-analyst-ii-risk-management-v029](./20260805-first-national-financial-lp-operations-analyst-ii-risk-management-v029/) | verified |
 | 030 | 2026-08-05 | Cidel | Operations Analyst | [20260805-cidel-operations-analyst-v030](./20260805-cidel-operations-analyst-v030/) | verified |
 | 031 | 2026-08-05 | First National Financial LP | Analyst, Commercial Financing | [20260805-first-national-financial-lp-analyst-commercial-financing-v031](./20260805-first-national-financial-lp-analyst-commercial-financing-v031/) | verified |
+| 032 | 2026-08-05 | SHEIN | Data Analyst | [20260805-shein-data-analyst-v032](./20260805-shein-data-analyst-v032/) | verified |

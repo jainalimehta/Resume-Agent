@@ -12,10 +12,10 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260805-first-national-financial-lp-analyst-commercial-financing-v031-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260805-first-national-financial-lp-analyst-commercial-financing-v031-cover-letter.pdf)
-- [Editable LaTeX and QA package](applications/20260805-first-national-financial-lp-analyst-commercial-financing-v031/)
-- [First National Commercial Financing interview preparation](applications/20260805-first-national-financial-lp-analyst-commercial-financing-v031/interview-preparation.md)
+- [Resume PDF](output/pdf/20260805-shein-data-analyst-v032-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260805-shein-data-analyst-v032-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260805-shein-data-analyst-v032/)
+- [SHEIN Data Analyst interview preparation](applications/20260805-shein-data-analyst-v032/interview-preparation.md)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules
