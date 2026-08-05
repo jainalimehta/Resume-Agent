@@ -29,3 +29,4 @@
 | 025 | 2026-08-04 | Tata Consultancy Services Canada | Power BI Developer | [20260804-tata-consultancy-services-canada-power-bi-developer-v025](./20260804-tata-consultancy-services-canada-power-bi-developer-v025/) | verified |
 | 026 | 2026-08-05 | FDM Group | FDM Consultant - Change and Transformation | [20260805-fdm-group-fdm-consultant-change-and-transformation-v026](./20260805-fdm-group-fdm-consultant-change-and-transformation-v026/) | verified |
 | 027 | 2026-08-05 | Accenture Australia | Business Analyst | [20260805-accenture-australia-business-analyst-v027](./20260805-accenture-australia-business-analyst-v027/) | verified |
+| 028 | 2026-08-05 | Capital One Canada | Associate, Strategy Analyst - New Grad 2026 | [20260805-capital-one-canada-associate-strategy-analyst-new-grad-2026-v028](./20260805-capital-one-canada-associate-strategy-analyst-new-grad-2026-v028/) | verified |
