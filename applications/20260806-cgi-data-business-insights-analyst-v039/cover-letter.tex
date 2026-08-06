@@ -1,0 +1,72 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[margin=0.68in,top=0.52in,bottom=0.52in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt plus 1pt minus 1pt}
+\raggedright
+\urlstyle{same}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\definecolor{ink}{HTML}{111111}
+\color{ink}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{17}{19}\selectfont\textbf{Jainali Mehta}}\par\vspace{2pt}
+  \small Toronto, Ontario, Canada \;|\;
+  \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com} \;|\;
+  \href{https://www.linkedin.com/in/jainali-mehta}{LinkedIn} \;|\;
+  \href{https://github.com/jainalimehta}{GitHub}
+\end{center}
+\vspace{-5pt}
+\noindent\rule{\textwidth}{0.4pt}
+
+August 6, 2026
+
+\textbf{Hiring Manager, Data \& Business Insights}\\
+CGI --- Toronto, Ontario
+
+Dear Hiring Manager,
+
+I am applying for the Data \& Business Insights Analyst position with CGI in Toronto. I currently live in Toronto, Canada; I completed my Master of Business Analytics at Edith Cowan University in Australia and my Integrated Master of Business Administration at Atmiya University in India. I offer an early-career foundation in PostgreSQL, SQL, advanced Excel, relational modelling, requirements documentation, data validation, operational KPI analysis, Power BI planning, and stakeholder communication.
+
+As a Data Intern at AYLA Solutions in Australia, I gathered and documented business and reporting requirements, translated stakeholder questions into structured analytical tasks, supported SQL extraction and validation, and prepared advanced Excel reports and dashboard insights for performance tracking. Agile planning and review sessions strengthened my progress communication, responsiveness to evolving requirements, and analytical documentation.
+
+My portfolio provides relevant operational and resource-reporting evidence. In HR Analytics, I modelled departments, employees, salaries, performance, and attendance and analyzed headcount, compensation, performance, hiring, and tenure. E-commerce and healthcare projects add customer, revenue, payment, completion, cost, workload, billing, and claims analysis. Across the repositories, I used CTEs, rankings, window functions, documented assumptions, repeatable validation, and GitHub Actions, then converted verified SQL findings into AI-assisted recommendations and Power BI dashboard plans.
+
+Graduate coursework in People Analytics, Analytics and Business Decision Making, Databases and Business Intelligence, Business Systems Analysis, and Project Management supports my understanding of operational reporting and structured delivery. Earlier roles in India strengthened my workflow coordination, client communication, reporting support, record accuracy, and care with confidential information.
+
+I want to be precise about my present level. I have not independently implemented interactive Power BI dashboards, worked with ServiceNow or LiveLink, consolidated production enterprise-system data, created executive reporting, facilitated business workshops, or performed professional capacity, SLA, resource-forecasting, or financial-services analysis. My strongest hands-on tools are SQL and advanced Excel. I would contribute disciplined validation, clear requirements, operational portfolio reasoning, and a structured approach to learning CGI's client environment.
+
+CGI's ownership culture, client-focused consulting model, Canadian analytics capabilities, and focus on turning trusted data into operational action make this opportunity compelling. I would welcome the chance to support accurate reporting and actionable insight while developing deeper enterprise BI and operational-planning expertise.
+
+Thank you for your time and consideration. I look forward to discussing how I could contribute to your team.
+
+Best regards,\\[8pt]
+Jainali Mehta
+
+\end{document}
