@@ -42,3 +42,4 @@
 | 039 | 2026-08-06 | CGI | Data & Business Insights Analyst | [20260806-cgi-data-business-insights-analyst-v039](./20260806-cgi-data-business-insights-analyst-v039/) | verified |
 | 040 | 2026-08-06 | SOCAN | Data Analyst | [20260806-socan-data-analyst-v040](./20260806-socan-data-analyst-v040/) | verified |
 | 041 | 2026-08-06 | Relay | Data Analyst, Product | [20260806-relay-data-analyst-product-v041](./20260806-relay-data-analyst-product-v041/) | verified |
+| 042 | 2026-08-06 | EllisDon | Data Analyst | [20260806-ellisdon-data-analyst-v042](./20260806-ellisdon-data-analyst-v042/) | verified |
