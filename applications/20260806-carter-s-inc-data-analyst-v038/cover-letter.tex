@@ -1,0 +1,72 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[margin=0.68in,top=0.52in,bottom=0.52in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt plus 1pt minus 1pt}
+\raggedright
+\urlstyle{same}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\definecolor{ink}{HTML}{111111}
+\color{ink}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{17}{19}\selectfont\textbf{Jainali Mehta}}\par\vspace{2pt}
+  \small Toronto, Ontario, Canada \;|\;
+  \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com} \;|\;
+  \href{https://www.linkedin.com/in/jainali-mehta}{LinkedIn} \;|\;
+  \href{https://github.com/jainalimehta}{GitHub}
+\end{center}
+\vspace{-5pt}
+\noindent\rule{\textwidth}{0.4pt}
+
+August 6, 2026
+
+\textbf{Hiring Manager, Planning \& Allocation Analytics}\\
+Carter's Inc. --- Canada
+
+Dear Hiring Manager,
+
+I am applying for the Data Analyst position supporting Carter's Canadian Planning \& Allocation team. I currently live in Toronto, Canada; I completed my Master of Business Analytics at Edith Cowan University in Australia and my Integrated Master of Business Administration at Atmiya University in India. I offer an early-career foundation in PostgreSQL, SQL, advanced Excel, data validation, KPI reporting, Power BI planning, business recommendations, and stakeholder communication.
+
+As a Data Intern at AYLA Solutions in Australia, I gathered and documented business and reporting requirements, translated stakeholder questions into analytical tasks, supported SQL extraction and validation, and prepared advanced Excel reports and dashboard insights for performance tracking. Agile planning and review sessions strengthened my progress communication, responsiveness to changing requirements, and analytical documentation.
+
+E-Commerce Sales Analytics provides my strongest retail-relevant evidence. I built a PostgreSQL model connecting customers, products, orders, line items, and payments; applied integrity checks and recognized revenue rules; and analyzed customer spend, order frequency, product rankings, monthly revenue, and payment methods. HR and healthcare projects add operational KPI analysis, assumptions, repeatable validation, and GitHub Actions. Each repository includes AI-assisted recommendations grounded in SQL and Power BI planning with KPIs, filters, visuals, and decision-use cases.
+
+Graduate coursework in Supply Chain Analytics, Analytics and Business Decision Making, Databases and Business Intelligence, People Analytics, and Project Management supports my understanding of planning, performance, and cross-functional delivery. Earlier roles in India strengthened my workflow coordination, reporting support, record accuracy, client communication, and care with confidential information.
+
+I want to be precise about my present level. I do not have two to three years of Data Analyst employment, professional retail planning or allocation experience, large retail-dataset experience, self-service BI administration, dashboard training responsibility, advanced expertise in the required dashboard platform, or implemented interactive Power BI dashboards. My strongest hands-on tools are SQL and advanced Excel. I would contribute disciplined validation, retail-relevant portfolio reasoning, clear reporting requirements, and a structured approach to learning Carter's adopted BI environment.
+
+Carter's family-focused mission, Canadian planning transformation, emphasis on accurate insight, and culture of learning, inclusion, collaboration, and innovation make this opportunity compelling. I would welcome the chance to support reliable reporting and fact-based decisions while developing deeper retail-planning expertise.
+
+Thank you for your time and consideration. I look forward to discussing how I could contribute to your team.
+
+Best regards,\\[8pt]
+Jainali Mehta
+
+\end{document}
