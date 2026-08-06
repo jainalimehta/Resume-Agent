@@ -1,0 +1,72 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[margin=0.68in,top=0.52in,bottom=0.52in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt plus 1pt minus 1pt}
+\raggedright
+\urlstyle{same}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\definecolor{ink}{HTML}{111111}
+\color{ink}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{17}{19}\selectfont\textbf{Jainali Mehta}}\par\vspace{2pt}
+  \small Toronto, Ontario, Canada \;|\;
+  \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com} \;|\;
+  \href{https://www.linkedin.com/in/jainali-mehta}{LinkedIn} \;|\;
+  \href{https://github.com/jainalimehta}{GitHub}
+\end{center}
+\vspace{-5pt}
+\noindent\rule{\textwidth}{0.4pt}
+
+August 6, 2026
+
+\textbf{Senior Product Manager, RESL Data Governance and Management}\\
+TD Bank --- Toronto, Ontario
+
+Dear Hiring Manager,
+
+I am applying for the Business Data Analyst position within RESL Data Governance and Management. I currently live in Toronto, Canada; I completed my Master of Business Analytics at Edith Cowan University in Australia and my Integrated Master of Business Administration at Atmiya University in India. I offer an early-career foundation in PostgreSQL, SQL, advanced Excel, relational modelling, data validation, documented business rules, process documentation, stakeholder communication, and reliable reporting.
+
+As a Data Intern at AYLA Solutions in Australia, I gathered and documented business and reporting requirements, translated stakeholder questions into structured analytical tasks, supported SQL extraction and validation, and prepared advanced Excel reports and dashboard insights for performance tracking. Agile planning and review sessions strengthened my ability to communicate progress, respond to evolving requirements, and maintain accurate analytical documentation for review.
+
+My three published PostgreSQL projects demonstrate the controls mindset most relevant to data governance. I defined primary and foreign keys, uniqueness and integrity checks, business rules, documented assumptions, and repeatable validation. In E-Commerce Sales Analytics, I applied explicit revenue-recognition rules and separated pending, refunded, and cancelled activity. HR and healthcare projects add sensitive-data context, relational validation, GitHub Actions, KPI analysis, and AI-assisted recommendations grounded in verified SQL outputs.
+
+My graduate coursework in Machine Learning, Databases and Business Intelligence, Enterprise Architecture, Business Systems Analysis, and Business Process Management supports my understanding of analytical systems and controlled workflows. Earlier roles in India strengthened my coordination, confidential record handling, client communication, and attention to data accuracy.
+
+I want to be precise about my present level. I do not have RESL experience and have not used Databricks, Python, open-source machine-learning libraries, unstructured-data pipelines, feature engineering, model-interpretability tools, or production model-lifecycle processes. My strongest hands-on tools are SQL and advanced Excel. I would contribute disciplined validation, transparent documentation, requirements analysis, and a structured approach to learning TD's governed data and modelling environment.
+
+TD's purpose of helping Canadians pursue homeownership, combined with RESL's focus on digital innovation, data governance, responsible model management, and colleague development, makes this opportunity compelling. I would welcome the chance to support standardized controls, clear workflows, and cross-functional alignment while developing deeper mortgage and model-governance expertise.
+
+Thank you for your time and consideration. I look forward to discussing how I could contribute to your team.
+
+Best regards,\\[8pt]
+Jainali Mehta
+
+\end{document}

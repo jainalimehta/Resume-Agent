@@ -1,0 +1,140 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[margin=0.52in,top=0.42in,bottom=0.42in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\raggedright
+\urlstyle{same}
+\emergencystretch=1em
+
+\definecolor{ink}{HTML}{111111}
+\color{ink}
+
+\titleformat{\section}
+  {\bfseries\scshape\normalsize}
+  {}{0pt}{}
+  [\vspace{1.2pt}\titlerule]
+\titlespacing*{\section}{0pt}{5.2pt}{3.2pt}
+
+\setlist[itemize]{
+  leftmargin=0.16in,
+  label=\textbullet,
+  topsep=1.2pt,
+  itemsep=1.2pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\newcommand{\role}[4]{%
+  \begin{tabularx}{\textwidth}{@{}Xr@{}}
+    \textbf{#1} & \textbf{#2} \\
+    \textit{#3} & \textit{#4}
+  \end{tabularx}\vspace{-1pt}
+}
+
+\newcommand{\project}[2]{%
+  \begin{tabularx}{\textwidth}{@{}Xr@{}}
+    \textbf{#1} & \textit{#2}
+  \end{tabularx}\vspace{-1pt}
+}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{17}{19}\selectfont\textbf{Jainali Mehta}}\\[2pt]
+  \small Toronto, Ontario, Canada \;|\;
+  \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com} \;|\;
+  \href{https://www.linkedin.com/in/jainali-mehta}{LinkedIn} \;|\;
+  \href{https://github.com/jainalimehta}{GitHub}
+\end{center}
+\vspace{-7pt}
+
+\section{Professional Summary}
+\small Early-career business and data analyst in Toronto with Australian Data Intern experience and a Master of Business Analytics from Australia. Brings PostgreSQL, SQL, advanced Excel, relational modelling, data validation, documented business rules, reporting requirements, process documentation, KPI planning, and stakeholder communication.
+
+\section{Core Competencies}
+\begin{itemize}[leftmargin=0.16in,label=\textbullet,topsep=0pt,itemsep=1pt,parsep=0pt]
+  \item \small \textbf{Data Quality \& Governance Foundation:} Integrity checks, primary and foreign keys, uniqueness rules, documented assumptions and business rules, repeatable validation, confidential records, Git, and GitHub Actions.
+  \item \small \textbf{Data Analysis:} PostgreSQL, SQL, advanced Excel, pivot tables, structured relational data, extraction, cleaning, validation, joins, CTEs, aggregations, segmentation, rankings, and window functions.
+  \item \small \textbf{Requirements \& Process:} Business and reporting requirements, process mapping, workflow documentation, stakeholder communication, Agile planning and reviews, coordination, and analytical documentation.
+  \item \small \textbf{Reporting \& Model Foundation:} KPI definition, Power BI dashboard planning, visualization requirements, AI-assisted SQL interpretation, Machine Learning coursework, and business recommendations.
+\end{itemize}
+
+\section{Professional Experience}
+\role{AYLA Solutions}{Australia}{Data Intern}{2025}
+\begin{itemize}
+  \item Gathered and documented business, data, and reporting requirements; translated stakeholder questions into structured analytical tasks and reporting outputs.
+  \item Supported SQL extraction and validation; prepared advanced Excel reports and dashboard insights for performance reporting.
+  \item Participated in Agile planning and review sessions, communicated progress, and maintained accurate analytical documentation.
+\end{itemize}
+\vspace{1pt}
+
+\role{Trans Globe Education}{India}{Support Executive}{2022--2023}
+\begin{itemize}
+  \item Managed client documentation and accurate records; coordinated application and process updates with students and institutions.
+  \item Supported administrative reporting, workflow management, client communication, and market research activities.
+\end{itemize}
+\vspace{1pt}
+
+\role{Arihant Investment}{India}{Administrative Executive}{2020--2021}
+\begin{itemize}
+  \item Handled data entry, documentation, and confidential client-record maintenance with close attention to accuracy.
+  \item Supported daily business operations and client communication while maintaining reliable business information.
+\end{itemize}
+
+\section{Business Analytics Projects}
+\project{\href{https://github.com/jainalimehta/Ecommerce-Sales-Analytics}{E-Commerce Sales Analytics}}{PostgreSQL, SQL, Data Controls}
+\begin{itemize}
+  \item Built a relational model connecting customers, products, orders, line items, and payments; applied primary and foreign keys, uniqueness rules, integrity checks, and revenue rules excluding pending, refunded, and cancelled activity.
+  \item Analyzed spend, order frequency, product rankings, monthly revenue, and payment methods; documented repeatable validation, AI-assisted recommendations grounded in SQL, Power BI planning, and GitHub Actions.
+\end{itemize}
+\vspace{1pt}
+
+\project{\href{https://github.com/jainalimehta/HR-Analytics}{HR Analytics}}{PostgreSQL, SQL, Sensitive Data}
+\begin{itemize}
+  \item Built a normalized workforce model spanning departments, employees, salaries, performance, and attendance; analyzed headcount, compensation, performance, attendance, hiring year, and tenure.
+  \item Applied CTEs, rankings, window functions, repeatable validation, and GitHub Actions; documented SQL-grounded recommendations and Power BI dashboard planning.
+\end{itemize}
+\vspace{1pt}
+
+\project{\href{https://github.com/jainalimehta/Healthcare-Analytics}{Healthcare Patient \& Hospital Analytics}}{PostgreSQL, SQL, Validation}
+\begin{itemize}
+  \item Modelled patients, clinicians, appointments, treatments, billing, and insurance claims using validated relationships and documented assumptions; analyzed completion, costs, billing status, workload, and claims.
+  \item Used CTEs, segmentation, rankings, running totals, lag comparisons, repeatable validation, and GitHub Actions; documented AI-assisted recommendations and Power BI planning.
+\end{itemize}
+
+\section{Education}
+\role{Edith Cowan University}{Australia}{Master of Business Analytics}{2023--2025}
+\small\textbf{Relevant Coursework:} Machine Learning, Databases and Business Intelligence, Enterprise Architecture, Business Systems Analysis, Business Process Management.\\[2pt]
+\role{Atmiya University}{India}{Integrated Master of Business Administration}{2018--2022}
+
+\section{Credentials}
+\small\textbf{Business Analysis \& Process Management} -- Coursera Project Network, June 2025; Credential ID: WV4JMS14XVV6.\\[-0.2pt]
+\small\textbf{NISM Series XII -- Securities Markets Foundation}
+
+\end{document}
