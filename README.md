@@ -12,10 +12,10 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260806-socan-data-analyst-v040-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260806-socan-data-analyst-v040-cover-letter.pdf)
-- [Editable LaTeX and QA package](applications/20260806-socan-data-analyst-v040/)
-- [SOCAN Data Analyst interview preparation](applications/20260806-socan-data-analyst-v040/interview-preparation.md)
+- [Resume PDF](output/pdf/20260806-relay-data-analyst-product-v041-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260806-relay-data-analyst-product-v041-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260806-relay-data-analyst-product-v041/)
+- [Relay Data Analyst, Product interview preparation](applications/20260806-relay-data-analyst-product-v041/interview-preparation.md)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules

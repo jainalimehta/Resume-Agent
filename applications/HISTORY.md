@@ -41,3 +41,4 @@
 | 038 | 2026-08-06 | Carter's Inc. | Data Analyst | [20260806-carter-s-inc-data-analyst-v038](./20260806-carter-s-inc-data-analyst-v038/) | verified |
 | 039 | 2026-08-06 | CGI | Data & Business Insights Analyst | [20260806-cgi-data-business-insights-analyst-v039](./20260806-cgi-data-business-insights-analyst-v039/) | verified |
 | 040 | 2026-08-06 | SOCAN | Data Analyst | [20260806-socan-data-analyst-v040](./20260806-socan-data-analyst-v040/) | verified |
+| 041 | 2026-08-06 | Relay | Data Analyst, Product | [20260806-relay-data-analyst-product-v041](./20260806-relay-data-analyst-product-v041/) | verified |
