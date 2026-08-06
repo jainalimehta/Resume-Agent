@@ -1,0 +1,72 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[margin=0.68in,top=0.52in,bottom=0.52in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8pt plus 1pt minus 1pt}
+\raggedright
+\urlstyle{same}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\definecolor{ink}{HTML}{111111}
+\color{ink}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{17}{19}\selectfont\textbf{Jainali Mehta}}\par\vspace{2pt}
+  \small Toronto, Ontario, Canada \;|\;
+  \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com} \;|\;
+  \href{https://www.linkedin.com/in/jainali-mehta}{LinkedIn} \;|\;
+  \href{https://github.com/jainalimehta}{GitHub}
+\end{center}
+\vspace{-5pt}
+\noindent\rule{\textwidth}{0.4pt}
+
+August 6, 2026
+
+\textbf{Hiring Manager, Analytics}\\
+SOCAN --- Toronto, Ontario
+
+Dear Hiring Manager,
+
+I am applying for the Data Analyst position with SOCAN in Toronto. I currently live in Toronto, Canada; I completed my Master of Business Analytics at Edith Cowan University in Australia and my Integrated Master of Business Administration at Atmiya University in India. I offer an early-career foundation in PostgreSQL, SQL, advanced Excel, relational modelling, reporting requirements, data-quality validation, KPI analysis, Power BI planning, and stakeholder communication.
+
+As a Data Intern at AYLA Solutions in Australia, I gathered and documented business, data, and reporting requirements, supported SQL-based extraction and validation, prepared advanced Excel reports, and contributed dashboard insights for performance tracking. Through Agile planning and review sessions, I coordinated analytical tasks, communicated progress, and maintained accurate documentation.
+
+My portfolio demonstrates an end-to-end analytical workflow across e-commerce, workforce, and healthcare projects. I designed normalized PostgreSQL models, defined decision-relevant KPIs, and used joins, CTEs, segmentation, rankings, running totals, lag comparisons, and window functions to examine trends and performance. I documented business rules and assumptions, applied integrity checks and repeatable validation, and used GitHub Actions to test analytical assets. They turn verified SQL findings into AI-assisted recommendations and documented Power BI plans for stakeholder use.
+
+Graduate coursework in Databases and Business Intelligence, Machine Learning, Analytics and Business Decision Making, Business Systems Analysis, and Project Management supports my quantitative and delivery foundation. Earlier roles at Trans Globe Education and Arihant Investment strengthened my process coordination, reporting support, confidential record handling, client communication, and attention to accurate information.
+
+I want to be precise about my present level. I have not used Databricks, Python, Spark, distributed-computing environments, Lakehouse pipelines, Genie, or semantic-layer tools, and I do not have two years of analytics-platform experience. I have also planned rather than independently implemented interactive dashboards. My strongest hands-on tools are SQL and advanced Excel. I would contribute disciplined validation, clear documentation, thoughtful KPI reasoning, and a structured approach to learning SOCAN's cloud data environment.
+
+SOCAN's mission to ensure music creators and publishers receive what they have earned gives data quality a direct human purpose. Its modernization toward safer, more accurate data movement, clearer insights, and reliable self-service tools makes the Analytics team especially compelling. I would welcome the opportunity to support trusted reporting and actionable insight while developing deeper Databricks, Python, Spark, and cloud analytics capability.
+
+Thank you for your time and consideration. I look forward to discussing how I could contribute to your team.
+
+Best regards,\\[8pt]
+Jainali Mehta
+
+\end{document}

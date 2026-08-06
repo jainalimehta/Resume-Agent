@@ -40,3 +40,4 @@
 | 037 | 2026-08-06 | TD Bank | Business Data Analyst, RESL Data Governance and Management | [20260806-td-bank-business-data-analyst-resl-data-governance-and-management-v037](./20260806-td-bank-business-data-analyst-resl-data-governance-and-management-v037/) | verified |
 | 038 | 2026-08-06 | Carter's Inc. | Data Analyst | [20260806-carter-s-inc-data-analyst-v038](./20260806-carter-s-inc-data-analyst-v038/) | verified |
 | 039 | 2026-08-06 | CGI | Data & Business Insights Analyst | [20260806-cgi-data-business-insights-analyst-v039](./20260806-cgi-data-business-insights-analyst-v039/) | verified |
+| 040 | 2026-08-06 | SOCAN | Data Analyst | [20260806-socan-data-analyst-v040](./20260806-socan-data-analyst-v040/) | verified |
