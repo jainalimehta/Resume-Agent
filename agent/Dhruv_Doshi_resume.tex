@@ -1,0 +1,162 @@
+%-------------------------
+% Resume in Latex
+% Author : Dhruv Doshi
+% Website: https://github.com/DhruvDoshi
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,9.5pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://doshidhruv.com/}{\Large Dhruv Doshi}} & Email : \href{mailto:work@doshidhruv.com}{Work@doshidhruv.com}\\
+  \href{https://doshidhruv.com/}{https://www.doshidhruv.com} & Mobile : +1-902-989-1274 \\
+\end{tabular*}
+
+%-----------SKILLS-----------------
+\section{Skills}
+\begin{description}[noitemsep,topsep=0pt]
+  \item[] \textbf{Cloud \& Platform}: Go, TypeScript, Python, Node.js, AWS, GCP, Kubernetes, Terraform, Docker, CI/CD
+  \item[] \textbf{Networking \& Security}: TCP/IP fundamentals, HTTP, TLS, OAuth 2.0, OIDC, IAM, SSO, Zero-Trust
+  \item[] \textbf{Distributed Systems}: service-to-service communication, multi-cloud platforms, reliability, scalability, failover
+  \item[] \textbf{Observability \& Ops}: OpenTelemetry, Kafka, ELK, Prometheus, alerting, tracing, operational hygiene
+  \item[] \textbf{Developer Enablement}: sample services, SDKs, reference implementations, documentation, workshops
+\end{description}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Royal Bank of Canada (RBC)}{Toronto, Canada}
+    {Staff Software Developer \& Enterprise Architect}{Nov 2022 -- Present}
+    \resumeItemListStart
+      \resumeItem{Enterprise Platform Delivery}
+        {Led 0-to-1 production delivery of a Node.js, TypeScript, and React enterprise blueprint platform with real-time data rendering, reusable workflows, and secure service integration patterns adopted across the organization.}
+      \resumeItem{Reusable Infrastructure Patterns}
+        {Drove Terraform-based infrastructure modules across AWS and GCP to eliminate point-to-point integrations, standardize deployments, and reduce operational complexity for platform consumers.}
+      \resumeItem{Operational Observability}
+        {Standardised OpenTelemetry log schemas and onboarding guides used by 20+ engineering teams, improving consistency for tracing, alerting, and cross-team troubleshooting.}
+      \resumeItem{Security \& Governance}
+        {Defined and operationalised enterprise AI governance covering Responsible AI, IAM, audit trails, regulatory compliance, and sovereign-cloud constraints across AWS, GCP, and OCP.}
+      \resumeItem{Team Leadership}
+        {Led 5 engineers with weekly sprint cadence, code reviews, ADRs, mentorship, and cross-functional alignment with product, risk, and architecture stakeholders.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {HealthCard}{Remote}
+    {Blockchain Architect \& First Full Stack Engineer}{Aug 2021 -- Jul 2022}
+    \resumeItemListStart
+      \resumeItem{Cloud-Native 0-to-1 Build}
+        {Joined as first engineer and built the product from scratch: React/TypeScript frontend, Node.js/Express REST API, Hyperledger Fabric verification layer, and AWS EKS deployment with HIPAA-compliant audit logging.}
+      \resumeItem{Platform Hardening}
+        {Owned architecture decisions across frontend, API, and deployment layers, balancing reliability, maintainability, and security in a small-team environment.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Dalhousie University}{Halifax, Canada}
+    {Teaching Assistant \& Research Assistant}{Jan 2021 -- Aug 2022}
+    \resumeItemListStart
+      \resumeItem{Teaching Support}
+        {Supported Software Development, Algorithms, and Advanced Cloud Computing courses through lab sessions, assignment support, and systems fundamentals coaching.}
+      \resumeItem{Research Support}
+        {Worked on call-stack decision algorithms for compiler and runtime research, strengthening low-level systems reasoning and execution-path analysis.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+  
+%-----------PROJECTS-----------------
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeSubItem{Agent Authorization Gateway}
+      {Built a prototype OAuth/OIDC policy layer for MCP and A2A agent access, with audit logging, reusable SDK-style integrations, and phishing-resistant authorization flows.}
+
+  \resumeSubItem{Enterprise Auth Sample Pack}
+      {Assembled secure identity integration samples showing login, token handling, and service-to-service authorization patterns for internal developers and architecture reviews.}
+
+  \resumeSubItem{DCS-BBN: Blockchain-Based Cloud Storage}
+      {Designed a decentralized storage network using Solidity, Hyperledger Fabric, and zk-SNARK proofs for privacy-preserving verification; published in Springer ICMR.}
+
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {University of Toronto}{Toronto, Canada}
+    {Enterprise Architecture Certification (3-semester program)}{Completed 2024}
+  \resumeSubheading
+    {Dalhousie University}{Halifax, Canada}
+    {Master of Applied Computer Science; GPA: 3.9/4.0}{Jan 2021 -- Aug 2022}
+  \resumeSubheading
+    {Gujarat Technological University}{India}
+    {BE Computer Engineering; GPA: 3.92/4.0}{Aug 2016 -- Aug 2020}
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}

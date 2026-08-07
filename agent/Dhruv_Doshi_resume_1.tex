@@ -1,0 +1,162 @@
+%-------------------------
+% Resume in Latex
+% Author : Dhruv Doshi
+% Website: https://github.com/DhruvDoshi
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,9.5pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://doshidhruv.com/}{\Large Dhruv Doshi}} & Email : \href{mailto:work@doshidhruv.com}{work@doshidhruv.com}\\
+  \href{https://doshidhruv.com/}{https://www.doshidhruv.com} & Mobile : +1-902-989-1274 $|$ Toronto, Canada \\
+\end{tabular*}
+
+%-----------SKILLS-----------------
+\section{Skills}
+\begin{description}[noitemsep,topsep=0pt]
+  \item[] \textbf{Solutions}: Discovery, demos, POCs, pilot scoping, deployments, customer escalations
+  \item[] \textbf{Delivery}: Milestones, deliverables, risk tracking, executive updates, technical specs, runbooks
+  \item[] \textbf{Cloud \& Infra}: AWS, GCP, Kubernetes, Docker, Terraform, CI/CD, networking, storage
+  \item[] \textbf{Security Reviews}: SOC 2, InfoSec questionnaires, IAM, audit trails, data handling, OSFI/GDPR
+  \item[] \textbf{AI Platforms}: LLMs, RAG, Responsible AI, guardrails, bias controls, evaluation, auditability
+  \item[] \textbf{Data \& APIs}: Kafka, Airflow, Snowflake, Elasticsearch, SQL, REST APIs, GraphQL, Node.js
+  \item[] \textbf{Observability}: OpenTelemetry, ELK, CloudWatch, distributed tracing, SLOs, log debugging
+  \item[] \textbf{Languages}: TypeScript, JavaScript, Python, Go, React, Node.js, Express, GraphQL
+\end{description}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Royal Bank of Canada (RBC)}{Toronto, Canada}
+    {Staff Software Developer \& Enterprise Architect}{Nov 2022 -- Present}
+    \resumeItemListStart
+      \resumeItem{Enterprise AI \& Architecture Platform}
+        {Led 0-to-1 delivery of a patent-pending Node.js, TypeScript, and React blueprint platform with rules-based recommendations, auto-certification, real-time rendering, and secure enterprise service matching; adopted across air-gapped, security-constrained environments.}
+      \resumeItem{Technical Stakeholder Ownership}
+        {Serve as engineering point of contact for architecture, security, infrastructure, risk, and product stakeholders; translate ambiguous requirements into milestones, trade-offs, technical specs, demos, and delivery plans.}
+      \resumeItem{GenAI Customer-Style Enablement}
+        {Building ASB Assist, an LLM + RAG interface that converts natural-language requirements into compliant architecture diagrams and service recommendations with audit trails, guardrails, and Responsible AI controls.}
+      \resumeItem{Production Observability Platform}
+        {Architected institution-wide telemetry platform using OpenTelemetry, Vector, Fluent Bit, Kafka, and Logstash ingesting 150\,TB/day across 10,000+ systems; enabled log tracing, SLA debugging, and downstream AIOps/ML ops use cases.}
+      \resumeItem{Security, Compliance \& Reviews}
+        {Defined AI governance and architecture standards covering IAM, auditability, data handling, OSFI/GDPR concerns, cloud controls, and vendor/security review patterns for regulated enterprise deployments.}
+      \resumeItem{Delivery Leadership}
+        {Led 5 engineers with sprint cadence, code reviews, ADRs, onboarding guides, runbooks, and cross-functional alignment to keep platform commitments visible.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {HealthCard (Acquired Startup)}{Remote}
+    {Blockchain Architect \& First Full Stack Engineer}{Aug 2021 -- Jul 2022}
+    \resumeItemListStart
+      \resumeItem{0-to-1 SaaS \& Cloud Deployment}
+        {Built the product from scratch as first engineer: React/TypeScript frontend, Node.js/Express REST APIs, Hyperledger Fabric verification layer, and AWS EKS deployment with HIPAA-aligned audit logging.}
+      \resumeItem{Insurance Workflow Automation}
+        {Designed insurance validation and trust-score workflows for real-time premium verification and fraud-resistant claims processing; balanced security, customer usability, and production reliability in a small-team environment.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Canada Revenue Agency (CRA)}{Ottawa, Canada (Remote)}
+    {Software Developer Co-op}{Apr 2022 -- Nov 2022}
+    \resumeItemListStart
+      \resumeItem{Government Platform Modernization}
+        {Migrated federal tax platform UI from Apache Struts to React/TypeScript and contributed to API layers serving millions of Canadians with WCAG accessibility and automated quality gates.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+  
+%-----------PROJECTS-----------------
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeSubItem{Enterprise Document Q\&A and Evaluation Harness}
+      {Built a LangChain + pgvector RAG prototype over messy document corpora with offline evaluation sets, prompt/version comparison, citation checks, and regression metrics for auditable answer quality.}
+
+  \resumeSubItem{DCS-BBN: Blockchain-Based Cloud Storage}
+      {Designed decentralized storage using Solidity, Hyperledger Fabric, and zk-SNARK proofs for privacy-preserving verification; published in Springer ICMR.}
+
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Dalhousie University}{Halifax, Canada}
+    {Master of Applied Computer Science; GPA: 3.9/4.0}{Jan 2021 -- Aug 2022}
+  \resumeSubheading
+    {University of Toronto}{Toronto, Canada}
+    {Enterprise Architecture Certification (3-semester program)}{Completed 2024}
+  \resumeSubheading
+    {Gujarat Technological University}{Ahmedabad, India}
+    {BE Computer Engineering; GPA: 3.92/4.0}{Aug 2016 -- Aug 2020}
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}

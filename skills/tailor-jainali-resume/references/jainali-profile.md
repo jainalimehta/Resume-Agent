@@ -48,6 +48,14 @@ Use only the facts in this file. Jainali's direct corrections override older res
 
 ## Experience
 
+### Confirmed Freelance Functions
+
+- Jainali directly confirms that she has worked as a freelance developer.
+- Jainali directly confirms that she has worked as a freelance architect.
+- Jainali directly confirms that she has worked as a freelance data engineer.
+- These are genuine freelance functions, not fictional portfolio labels. Use `references/freelance-evidence.md` for dates, engagement details, tools, deliverables, and outcomes.
+- Until the freelance ledger contains a defensible date range and engagement-level details, do not invent bullets or place undated freelance employment on a submitted resume.
+
 ### AYLA Solutions, Australia
 
 - Role: Data Intern
@@ -184,5 +192,6 @@ Prohibited until Jainali supplies new evidence:
 - Direct user correction establishes `Data Intern` as the AYLA Solutions title and removes Tableau.
 - Direct user correction on August 4, 2026 establishes that Online GST Filing Adoption Research used Google Forms and Microsoft Excel formulas, sorting, filtering, pivot tables, percentages, and charts, and did not use IBM SPSS Statistics.
 - Direct user correction establishes that all three portfolio projects contain Power BI planning sections and completed AI sections.
+- Direct user correction on August 6, 2026 establishes genuine freelance work as a developer, architect, and data engineer; engagement dates and details remain to be documented in the freelance evidence ledger.
 - GitHub inspection on August 1, 2026 verified `AI Analysis/ai_insights.md`, `ai_prompts.md`, and `business_recommendations.md` in every repository. Those files include Power BI dashboard-planning sections while describing dashboard implementation as a next stage.
 - GitHub repository content supports the technical portfolio claims.
