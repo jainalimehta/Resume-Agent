@@ -1,0 +1,84 @@
+% Jainali Mehta cover-letter template
+% Visual system adapted from the user-provided Dhruv Doshi reference.
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[empty]{fullpage}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+% Slightly less negative than the resume so the 11-point name row never clips.
+\addtolength{\topmargin}{-.35in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\begin{document}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/jainali-mehta}{\Large Jainali Mehta}} & Email: \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com}\\
+  \href{https://www.linkedin.com/in/jainali-mehta}{linkedin.com/in/jainali-mehta} & \href{https://github.com/jainalimehta}{github.com/jainalimehta} $|$ Toronto, Ontario, Canada \\
+\end{tabular*}
+
+\hrulefill
+
+\bigbreak
+August 9, 2026
+
+\bigbreak
+\centerline{\large\textbf{RE: Business Insights Analyst, Allstate Canada}}
+
+\bigbreak
+Dear Hiring Manager,
+
+\bigbreak
+I am applying for the Business Insights Analyst position with Allstate Insurance Company of Canada. I completed a Master of Business Analytics at Edith Cowan University in Australia and now live in Toronto. My foundation combines Australian Data Intern experience with PostgreSQL, SQL, advanced Excel, relational modelling, KPI reporting, data validation, reporting requirements, and decision-focused analysis.
+
+\bigbreak
+At AYLA Solutions in Australia, I gathered and documented reporting requirements, supported SQL-based extraction and validation, prepared advanced Excel reports, and contributed dashboard and reporting insights for business performance tracking. Participating in Agile planning and reviews strengthened my ability to clarify analytical needs, organize work, communicate progress, and maintain accurate documentation.
+
+\bigbreak
+My published portfolio demonstrates the analytical discipline required for reliable operational BI. In my healthcare project, I modelled patients, clinicians, appointments, treatments, billing, and insurance claims, then analyzed completion, costs, billing status, workload, and claims. Across this and my e-commerce and workforce projects, I used joins, CTEs, rankings, running totals, lag comparisons, and window functions; defined business rules and KPIs; and added repeatable validation and GitHub Actions checks. The repositories also contain SQL-grounded recommendations and completed Power BI dashboard planning. Interactive dashboard implementation remains my next development stage, so I do not present planning as production experience.
+
+\bigbreak
+Earlier roles at Trans Globe Education and Arihant Investment developed my process coordination, reporting support, confidential record handling, and attention to accuracy. Graduate work in Business Systems Analysis, Databases and Business Intelligence, Business Process Management, Analytics and Business Decision Making, and Project Management further strengthened my ability to connect operational questions with structured analysis. While I have not yet owned formal user acceptance testing, my experience documenting requirements, applying business rules, and validating outputs provides a relevant foundation for supporting UAT carefully.
+
+\bigbreak
+Allstate's focus on accurate, accessible, and actionable information across Operations is particularly compelling to me. I would welcome the opportunity to contribute rigorous SQL and Excel analysis, consistent metrics, clear reporting requirements, and proactive quality checks while learning Allstate's direct-sales and insurance context.
+
+\bigbreak
+Thank you for your time and consideration. I look forward to discussing how I could contribute to your team.
+
+\bigbreak
+Best regards,\\
+Jainali Mehta
+
+\end{document}
