@@ -12,10 +12,10 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260809-allstate-insurance-company-of-canada-business-insights-analyst-v054-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260809-allstate-insurance-company-of-canada-business-insights-analyst-v054-cover-letter.pdf)
-- [Editable LaTeX and QA package](applications/20260809-allstate-insurance-company-of-canada-business-insights-analyst-v054/)
-- [Allstate Business Insights Analyst interview preparation](applications/20260809-allstate-insurance-company-of-canada-business-insights-analyst-v054/interview-preparation.md)
+- [Resume PDF](output/pdf/20260809-aspiringit-junior-data-analyst-v055-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260809-aspiringit-junior-data-analyst-v055-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260809-aspiringit-junior-data-analyst-v055/)
+- [AspiringIT Junior Data Analyst interview preparation](applications/20260809-aspiringit-junior-data-analyst-v055/interview-preparation.md)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules
