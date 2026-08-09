@@ -48,3 +48,4 @@
 | 045 | 2026-08-06 | RBC | Strategy Business Analyst | [20260806-rbc-strategy-business-analyst-v045](./20260806-rbc-strategy-business-analyst-v045/) | verified |
 | 048 | 2026-08-09 | KPMG in Canada | Data Analyst | [20260809-kpmg-in-canada-data-analyst-v048](./20260809-kpmg-in-canada-data-analyst-v048/) | verified |
 | 049 | 2026-08-09 | Lyft | Analyst, Driver Earnings | [20260809-lyft-analyst-driver-earnings-v049](./20260809-lyft-analyst-driver-earnings-v049/) | verified |
+| 050 | 2026-08-09 | SOCAN | Data Analyst | [20260809-socan-data-analyst-v050](./20260809-socan-data-analyst-v050/) | verified |
