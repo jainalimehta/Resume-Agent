@@ -51,3 +51,4 @@
 | 050 | 2026-08-09 | SOCAN | Data Analyst | [20260809-socan-data-analyst-v050](./20260809-socan-data-analyst-v050/) | verified |
 | 051 | 2026-08-09 | Options Consulting Solutions - Confidential Client | Data Analyst | [20260809-options-consulting-solutions-confidential-client-data-analyst-v051](./20260809-options-consulting-solutions-confidential-client-data-analyst-v051/) | verified |
 | 052 | 2026-08-09 | Unknown Company | Junior Data Analyst | [20260809-unknown-company-junior-data-analyst-v052](./20260809-unknown-company-junior-data-analyst-v052/) | verified |
+| 053 | 2026-08-09 | Jobright | Entry-Level Data Analyst | [20260809-jobright-entry-level-data-analyst-v053](./20260809-jobright-entry-level-data-analyst-v053/) | verified |
