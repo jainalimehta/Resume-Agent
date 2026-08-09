@@ -1,0 +1,84 @@
+% Jainali Mehta cover-letter template
+% Visual system adapted from the user-provided Dhruv Doshi reference.
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[empty]{fullpage}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+% Slightly less negative than the resume so the 11-point name row never clips.
+\addtolength{\topmargin}{-.35in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\begin{document}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/jainali-mehta}{\Large Jainali Mehta}} & Email: \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com}\\
+  \href{https://www.linkedin.com/in/jainali-mehta}{linkedin.com/in/jainali-mehta} & \href{https://github.com/jainalimehta}{github.com/jainalimehta} $|$ Toronto, Ontario, Canada \\
+\end{tabular*}
+
+\hrulefill
+
+\bigbreak
+August 9, 2026
+
+\bigbreak
+\centerline{\large\textbf{RE: Analyst, Driver Earnings, Lyft}}
+
+\bigbreak
+Dear Hiring Manager,
+
+\bigbreak
+I am applying for the Analyst, Driver Earnings position with Lyft. I completed a Master of Business Analytics at Edith Cowan University in Australia and now live in Toronto. My foundation combines Australian Data Intern experience with SQL, advanced Excel, financial and operational KPI analysis, data validation, reporting requirements, and decision-focused communication.
+
+\bigbreak
+At AYLA Solutions in Australia, I gathered and documented business and reporting requirements, supported SQL-based extraction and validation, prepared advanced Excel reports, and contributed dashboard insights for performance tracking. Agile planning and review sessions strengthened my ability to clarify analytical questions, organize work, communicate progress, and maintain reliable documentation with cross-functional colleagues.
+
+\bigbreak
+My E-Commerce Sales Analytics project provides the closest evidence for Lyft's marketplace focus. I modelled customers, products, orders, line items, and payments; created recognized-revenue rules that exclude pending, refunded, and cancelled activity; and analyzed monthly revenue, payment methods, customer spend, order frequency, and product rankings. I also added repeatable validation to protect KPI accuracy and converted the findings into documented recommendations and Power BI dashboard planning.
+
+\bigbreak
+My healthcare and workforce projects further demonstrate operational metric design, trend analysis, segmentation, CTEs, rankings, window functions, and structured recommendations. Earlier roles at Trans Globe Education and Arihant Investment strengthened my reporting support, market research, workflow coordination, confidential record handling, and attention to detail under competing deadlines. Together, these experiences taught me to investigate the underlying business question before presenting a conclusion.
+
+\bigbreak
+I am drawn to Lyft's purpose to serve and connect and its stated commitment to a fair and transparent approach to driver earnings. This role is especially compelling because it connects marketplace trends, product and financial levers, reporting discipline, and stakeholder storytelling. I would welcome the opportunity to contribute rigorous SQL analysis, reliable controls, clear business reviews, and thoughtful recommendations while learning Lyft's marketplace frameworks and supporting budget and product decisions.
+
+\bigbreak
+Thank you for your time and consideration. I look forward to discussing how I could contribute to your team.
+
+\bigbreak
+Best regards,\\
+Jainali Mehta
+
+\end{document}

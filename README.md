@@ -12,10 +12,10 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260809-kpmg-in-canada-data-analyst-v048-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260809-kpmg-in-canada-data-analyst-v048-cover-letter.pdf)
-- [Editable LaTeX and QA package](applications/20260809-kpmg-in-canada-data-analyst-v048/)
-- [KPMG in Canada Data Analyst interview preparation](applications/20260809-kpmg-in-canada-data-analyst-v048/interview-preparation.md)
+- [Resume PDF](output/pdf/20260809-lyft-analyst-driver-earnings-v049-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260809-lyft-analyst-driver-earnings-v049-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260809-lyft-analyst-driver-earnings-v049/)
+- [Lyft Analyst, Driver Earnings interview preparation](applications/20260809-lyft-analyst-driver-earnings-v049/interview-preparation.md)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules
