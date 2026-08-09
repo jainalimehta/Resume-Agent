@@ -12,10 +12,10 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260806-ellisdon-data-analyst-v042-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260806-ellisdon-data-analyst-v042-cover-letter.pdf)
-- [Editable LaTeX and QA package](applications/20260806-ellisdon-data-analyst-v042/)
-- [EllisDon Data Analyst interview preparation](applications/20260806-ellisdon-data-analyst-v042/interview-preparation.md)
+- [Resume PDF](output/pdf/20260809-kpmg-in-canada-data-analyst-v048-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260809-kpmg-in-canada-data-analyst-v048-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260809-kpmg-in-canada-data-analyst-v048/)
+- [KPMG in Canada Data Analyst interview preparation](applications/20260809-kpmg-in-canada-data-analyst-v048/interview-preparation.md)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules
@@ -24,7 +24,7 @@ The canonical profile is stored in [`skills/tailor-jainali-resume/references/jai
 
 Published project titles are identity-locked as **E-Commerce Sales Analytics**, **Healthcare Patient & Hospital Analytics**, and **HR Analytics**. Tailoring may change their order or omit an irrelevant project, but it must never rename them.
 
-The locked document system follows Jainali's supplied format: a 10-point, one-column US Letter resume using Latin Modern serif, compact rules and bullets, searchable text, and no icons, photos, sidebars, skill bars, or scanned content. Education and Credentials remain separate. The matching cover letter uses the same typography and centered contact header.
+The locked document system follows Jainali's supplied format: a 9.5-point, one-column US Letter resume using Latin Modern serif, compact rules and bullets, searchable text, and no icons, photos, sidebars, skill bars, or scanned content. Education and Credentials remain separate. The matching 11-point cover letter uses the same typography and two-row identity header.
 
 ## Create a New Application Version
 

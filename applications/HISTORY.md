@@ -46,3 +46,4 @@
 | 043 | 2026-08-06 | RBC | Strategy Business Analyst | [20260806-rbc-strategy-business-analyst-v043](./20260806-rbc-strategy-business-analyst-v043/) | superseded by 045 due to formatting rebuild |
 | 044 | 2026-08-06 | RBC | Analyst, Analytics Engineer | [20260806-rbc-analyst-analytics-engineer-v044](./20260806-rbc-analyst-analytics-engineer-v044/) | verified |
 | 045 | 2026-08-06 | RBC | Strategy Business Analyst | [20260806-rbc-strategy-business-analyst-v045](./20260806-rbc-strategy-business-analyst-v045/) | verified |
+| 048 | 2026-08-09 | KPMG in Canada | Data Analyst | [20260809-kpmg-in-canada-data-analyst-v048](./20260809-kpmg-in-canada-data-analyst-v048/) | verified |
