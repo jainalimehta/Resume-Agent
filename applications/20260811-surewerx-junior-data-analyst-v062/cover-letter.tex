@@ -1,0 +1,84 @@
+% Jainali Mehta cover-letter template
+% Visual system adapted from the user-provided Dhruv Doshi reference.
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[empty]{fullpage}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+% Slightly less negative than the resume so the 11-point name row never clips.
+\addtolength{\topmargin}{-.35in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\begin{document}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/jainali-mehta}{\Large Jainali Mehta}} & Email: \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com}\\
+  \href{https://www.linkedin.com/in/jainali-mehta}{linkedin.com/in/jainali-mehta} & \href{https://github.com/jainalimehta}{github.com/jainalimehta} $|$ Toronto, Ontario, Canada \\
+\end{tabular*}
+
+\hrulefill
+
+\bigbreak
+August 11, 2026
+
+\bigbreak
+\centerline{\large\textbf{RE: Junior Data Analyst, SureWerx}}
+
+\bigbreak
+Dear Hiring Manager,
+
+\bigbreak
+I am applying for the Junior Data Analyst position with SureWerx. I completed a Master of Business Analytics at Edith Cowan University in Australia and now live in Toronto, aligning with the role's GTA preference. My early-career foundation combines Australian Data Intern experience with PostgreSQL, SQL, advanced Excel, requirements documentation, data validation, reporting insights, and Power BI dashboard planning.
+
+\bigbreak
+At AYLA Solutions in Australia, I gathered and documented business and reporting requirements, supported SQL-based extraction and validation, prepared advanced Excel reports, and contributed insights for business performance tracking. Participating in Agile planning and review sessions strengthened my ability to clarify reporting needs, organize analytical work, communicate progress, and adapt with a team.
+
+\bigbreak
+My published analytics portfolio demonstrates hands-on database and data-quality work across e-commerce, healthcare, and workforce domains. I built relational PostgreSQL models, wrote SQL using joins, CTEs, rankings, segmentation, running totals, lag comparisons, and window functions, and added repeatable validation and GitHub Actions checks. I then documented business insights, recommendations, KPI definitions, and Power BI dashboard plans grounded in the validated SQL outputs.
+
+\bigbreak
+Earlier roles at Trans Globe Education and Arihant Investment developed my documentation, workflow support, client communication, and attention to data accuracy and confidentiality. Graduate coursework in Databases and Business Intelligence, Business Systems Analysis, Machine Learning, and Enterprise Architecture further strengthened my understanding of how data, systems, and business requirements connect.
+
+\bigbreak
+SureWerx appeals to me because the role combines practical reporting, data preparation, stakeholder support, and continuous learning within a growing international organization. My Power BI experience currently centres on KPI, visualization, and dashboard planning rather than published interactive dashboards. I would bring a transparent foundation, strong SQL and validation habits, and the motivation to deepen Power BI while learning Fabric, Copilot, integrations, UAT, and SureWerx's reporting environment.
+
+\bigbreak
+Thank you for your consideration. I would welcome the opportunity to discuss how my analytical foundation, documentation discipline, and learning mindset could support SureWerx's Data Analytics team.
+
+\bigbreak
+Best regards,\\
+Jainali Mehta
+
+\end{document}

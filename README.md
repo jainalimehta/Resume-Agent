@@ -12,10 +12,10 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260811-scotiabank-branch-network-planning-and-business-analysis-v061-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260811-scotiabank-branch-network-planning-and-business-analysis-v061-cover-letter.pdf)
-- [Editable LaTeX and QA package](applications/20260811-scotiabank-branch-network-planning-and-business-analysis-v061/)
-- [Scotiabank Branch Network Planning interview preparation](applications/20260811-scotiabank-branch-network-planning-and-business-analysis-v061/interview-preparation.md)
+- [Resume PDF](output/pdf/20260811-surewerx-junior-data-analyst-v062-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260811-surewerx-junior-data-analyst-v062-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260811-surewerx-junior-data-analyst-v062/)
+- [SureWerx Junior Data Analyst interview preparation](applications/20260811-surewerx-junior-data-analyst-v062/interview-preparation.md)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules
