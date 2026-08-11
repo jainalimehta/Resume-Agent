@@ -12,10 +12,10 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260811-scotiabank-workplace-operations-coordinator-sbn-v058-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260811-scotiabank-workplace-operations-coordinator-sbn-v058-cover-letter.pdf)
-- [Editable LaTeX and QA package](applications/20260811-scotiabank-workplace-operations-coordinator-sbn-v058/)
-- [Scotiabank Workplace Operations Coordinator interview preparation](applications/20260811-scotiabank-workplace-operations-coordinator-sbn-v058/interview-preparation.md)
+- [Resume PDF](output/pdf/20260811-scotiabank-data-analyst-global-compliance-data-analytics-contract-v059-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260811-scotiabank-data-analyst-global-compliance-data-analytics-contract-v059-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260811-scotiabank-data-analyst-global-compliance-data-analytics-contract-v059/)
+- [Scotiabank Global Compliance Data Analyst interview preparation](applications/20260811-scotiabank-data-analyst-global-compliance-data-analytics-contract-v059/interview-preparation.md)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules

@@ -57,3 +57,4 @@
 | 056 | 2026-08-11 | Makeship | Business Operations Coordinator | [20260811-makeship-business-operations-coordinator-v056](./20260811-makeship-business-operations-coordinator-v056/) | verified |
 | 057 | 2026-08-11 | Hard Rock Digital | Business Intelligence Analyst | [20260811-hard-rock-digital-business-intelligence-analyst-v057](./20260811-hard-rock-digital-business-intelligence-analyst-v057/) | verified |
 | 058 | 2026-08-11 | Scotiabank | Workplace Operations Coordinator, SBN | [20260811-scotiabank-workplace-operations-coordinator-sbn-v058](./20260811-scotiabank-workplace-operations-coordinator-sbn-v058/) | verified |
+| 059 | 2026-08-11 | Scotiabank | Data Analyst - Global Compliance Data Analytics (Contract) | [20260811-scotiabank-data-analyst-global-compliance-data-analytics-contract-v059](./20260811-scotiabank-data-analyst-global-compliance-data-analytics-contract-v059/) | verified |
