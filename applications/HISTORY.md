@@ -54,3 +54,4 @@
 | 053 | 2026-08-09 | Jobright | Entry-Level Data Analyst | [20260809-jobright-entry-level-data-analyst-v053](./20260809-jobright-entry-level-data-analyst-v053/) | verified |
 | 054 | 2026-08-09 | Allstate Insurance Company of Canada | Business Insights Analyst | [20260809-allstate-insurance-company-of-canada-business-insights-analyst-v054](./20260809-allstate-insurance-company-of-canada-business-insights-analyst-v054/) | verified |
 | 055 | 2026-08-09 | AspiringIT | Junior Data Analyst | [20260809-aspiringit-junior-data-analyst-v055](./20260809-aspiringit-junior-data-analyst-v055/) | verified |
+| 056 | 2026-08-11 | Makeship | Business Operations Coordinator | [20260811-makeship-business-operations-coordinator-v056](./20260811-makeship-business-operations-coordinator-v056/) | verified |

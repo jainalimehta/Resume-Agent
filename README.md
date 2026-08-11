@@ -12,10 +12,10 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260809-aspiringit-junior-data-analyst-v055-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260809-aspiringit-junior-data-analyst-v055-cover-letter.pdf)
-- [Editable LaTeX and QA package](applications/20260809-aspiringit-junior-data-analyst-v055/)
-- [AspiringIT Junior Data Analyst interview preparation](applications/20260809-aspiringit-junior-data-analyst-v055/interview-preparation.md)
+- [Resume PDF](output/pdf/20260811-makeship-business-operations-coordinator-v056-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260811-makeship-business-operations-coordinator-v056-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260811-makeship-business-operations-coordinator-v056/)
+- [Makeship Business Operations Coordinator interview preparation](applications/20260811-makeship-business-operations-coordinator-v056/interview-preparation.md)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules
