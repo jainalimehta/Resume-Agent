@@ -61,3 +61,4 @@
 | 060 | 2026-08-11 | Scotiabank | GBM - Investment Banking Analyst (Financial Institutions Group) - New Grad | [20260811-scotiabank-gbm-investment-banking-analyst-financial-institutions-group-new-grad-v060](./20260811-scotiabank-gbm-investment-banking-analyst-financial-institutions-group-new-grad-v060/) | verified |
 | 061 | 2026-08-11 | Scotiabank | Branch Network Planning and Business Analysis | [20260811-scotiabank-branch-network-planning-and-business-analysis-v061](./20260811-scotiabank-branch-network-planning-and-business-analysis-v061/) | verified |
 | 062 | 2026-08-11 | SureWerx | Junior Data Analyst | [20260811-surewerx-junior-data-analyst-v062](./20260811-surewerx-junior-data-analyst-v062/) | verified |
+| 063 | 2026-08-11 | Canada Life | Business Analyst | [20260811-canada-life-business-analyst-v063](./20260811-canada-life-business-analyst-v063/) | verified |
