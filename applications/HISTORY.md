@@ -56,3 +56,4 @@
 | 055 | 2026-08-09 | AspiringIT | Junior Data Analyst | [20260809-aspiringit-junior-data-analyst-v055](./20260809-aspiringit-junior-data-analyst-v055/) | verified |
 | 056 | 2026-08-11 | Makeship | Business Operations Coordinator | [20260811-makeship-business-operations-coordinator-v056](./20260811-makeship-business-operations-coordinator-v056/) | verified |
 | 057 | 2026-08-11 | Hard Rock Digital | Business Intelligence Analyst | [20260811-hard-rock-digital-business-intelligence-analyst-v057](./20260811-hard-rock-digital-business-intelligence-analyst-v057/) | verified |
+| 058 | 2026-08-11 | Scotiabank | Workplace Operations Coordinator, SBN | [20260811-scotiabank-workplace-operations-coordinator-sbn-v058](./20260811-scotiabank-workplace-operations-coordinator-sbn-v058/) | verified |

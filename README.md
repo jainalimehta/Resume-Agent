@@ -12,10 +12,10 @@ Each run creates an immutable application version containing:
 
 ## Current Application Package
 
-- [Resume PDF](output/pdf/20260811-hard-rock-digital-business-intelligence-analyst-v057-resume.pdf)
-- [Cover Letter PDF](output/pdf/20260811-hard-rock-digital-business-intelligence-analyst-v057-cover-letter.pdf)
-- [Editable LaTeX and QA package](applications/20260811-hard-rock-digital-business-intelligence-analyst-v057/)
-- [Hard Rock Digital Business Intelligence Analyst interview preparation](applications/20260811-hard-rock-digital-business-intelligence-analyst-v057/interview-preparation.md)
+- [Resume PDF](output/pdf/20260811-scotiabank-workplace-operations-coordinator-sbn-v058-resume.pdf)
+- [Cover Letter PDF](output/pdf/20260811-scotiabank-workplace-operations-coordinator-sbn-v058-cover-letter.pdf)
+- [Editable LaTeX and QA package](applications/20260811-scotiabank-workplace-operations-coordinator-sbn-v058/)
+- [Scotiabank Workplace Operations Coordinator interview preparation](applications/20260811-scotiabank-workplace-operations-coordinator-sbn-v058/interview-preparation.md)
 - [Application history](applications/HISTORY.md)
 
 ## Truth and ATS Rules
