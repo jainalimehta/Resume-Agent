@@ -1,0 +1,84 @@
+% Jainali Mehta cover-letter template
+% Visual system adapted from the user-provided Dhruv Doshi reference.
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[empty]{fullpage}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+% Slightly less negative than the resume so the 11-point name row never clips.
+\addtolength{\topmargin}{-.35in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\begin{document}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/jainali-mehta}{\Large Jainali Mehta}} & Email: \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com}\\
+  \href{https://www.linkedin.com/in/jainali-mehta}{linkedin.com/in/jainali-mehta} & \href{https://github.com/jainalimehta}{github.com/jainalimehta} $|$ Toronto, Ontario, Canada \\
+\end{tabular*}
+
+\hrulefill
+
+\bigbreak
+August 6, 2026
+
+\bigbreak
+\centerline{\large\textbf{RE: Analyst, Analytics Engineer, RBC}}
+
+\bigbreak
+Dear Hiring Manager,
+
+\bigbreak
+I am applying for the Analyst, Analytics Engineer position (R-0000181478) with RBC. I completed a Master of Business Analytics at Edith Cowan University in Australia and now live in Toronto. My foundation combines Australian Data Intern experience with PostgreSQL, SQL, advanced Excel, requirements gathering, data validation, KPI reporting, Power BI planning, and careful stakeholder communication.
+
+\bigbreak
+At AYLA Solutions in Australia, I gathered and documented business and reporting requirements, supported SQL-based extraction and validation, prepared advanced Excel reports, and contributed dashboard insights for business performance tracking. Agile planning and review sessions strengthened my ability to clarify needs, organize work, communicate progress, and maintain usable documentation.
+
+\bigbreak
+My published analytics portfolio shows how I apply that foundation across different business domains. I built normalized PostgreSQL models for e-commerce, healthcare, and workforce data; used joins, CTEs, segmentation, rankings, running totals, lag comparisons, and window functions; and added repeatable validation and GitHub Actions checks. Each repository includes completed AI-assisted interpretation grounded in SQL outputs and structured Power BI KPI and dashboard planning. Interactive dashboard implementation remains the next stage, so I present this work accurately as planning rather than a published dashboard.
+
+\bigbreak
+Earlier roles at Trans Globe Education and Arihant Investment developed my process coordination, reporting support, confidential record handling, client communication, and attention to data accuracy. Graduate coursework in Business Systems Analysis, Databases and Business Intelligence, Business Process Management, Analytics and Business Decision Making, and Project Management further strengthened my ability to connect operational needs with structured analytical work.
+
+\bigbreak
+I am drawn to RBC because the Global Procurement \& Supplier Management Product \& Data Team combines reliable data operations, reporting, data quality, and structured learning alongside experienced professionals. I would welcome the opportunity to contribute dependable analysis, clear requirements, reliable reporting, and an active-learning mindset while continuing to grow as an early-career analyst.
+
+\bigbreak
+Thank you for your time and consideration. I look forward to discussing how I could contribute to your team.
+
+\bigbreak
+Best regards,\\
+Jainali Mehta
+
+\end{document}

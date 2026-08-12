@@ -44,8 +44,10 @@
 | 041 | 2026-08-06 | Relay | Data Analyst, Product | [20260806-relay-data-analyst-product-v041](./20260806-relay-data-analyst-product-v041/) | verified |
 | 042 | 2026-08-06 | EllisDon | Data Analyst | [20260806-ellisdon-data-analyst-v042](./20260806-ellisdon-data-analyst-v042/) | verified |
 | 043 | 2026-08-06 | RBC | Strategy Business Analyst | [20260806-rbc-strategy-business-analyst-v043](./20260806-rbc-strategy-business-analyst-v043/) | superseded by 045 due to formatting rebuild |
-| 044 | 2026-08-06 | RBC | Analyst, Analytics Engineer | [20260806-rbc-analyst-analytics-engineer-v044](./20260806-rbc-analyst-analytics-engineer-v044/) | verified |
+| 044 | 2026-08-06 | RBC | Analyst, Analytics Engineer | [20260806-rbc-analyst-analytics-engineer-v044](./20260806-rbc-analyst-analytics-engineer-v044/) | superseded by 046 due to format and content rebuild |
 | 045 | 2026-08-06 | RBC | Strategy Business Analyst | [20260806-rbc-strategy-business-analyst-v045](./20260806-rbc-strategy-business-analyst-v045/) | verified |
+| 046 | 2026-08-06 | RBC | Analyst, Analytics Engineer | [20260806-rbc-analyst-analytics-engineer-v046](./20260806-rbc-analyst-analytics-engineer-v046/) | superseded by 047 with expanded verified technical evidence |
+| 047 | 2026-08-06 | RBC | Analyst, Analytics Engineer | [20260806-rbc-analyst-analytics-engineer-v047](./20260806-rbc-analyst-analytics-engineer-v047/) | verified |
 | 048 | 2026-08-09 | KPMG in Canada | Data Analyst | [20260809-kpmg-in-canada-data-analyst-v048](./20260809-kpmg-in-canada-data-analyst-v048/) | verified |
 | 049 | 2026-08-09 | Lyft | Analyst, Driver Earnings | [20260809-lyft-analyst-driver-earnings-v049](./20260809-lyft-analyst-driver-earnings-v049/) | verified |
 | 050 | 2026-08-09 | SOCAN | Data Analyst | [20260809-socan-data-analyst-v050](./20260809-socan-data-analyst-v050/) | verified |
@@ -62,3 +64,4 @@
 | 061 | 2026-08-11 | Scotiabank | Branch Network Planning and Business Analysis | [20260811-scotiabank-branch-network-planning-and-business-analysis-v061](./20260811-scotiabank-branch-network-planning-and-business-analysis-v061/) | verified |
 | 062 | 2026-08-11 | SureWerx | Junior Data Analyst | [20260811-surewerx-junior-data-analyst-v062](./20260811-surewerx-junior-data-analyst-v062/) | verified |
 | 063 | 2026-08-11 | Canada Life | Business Analyst | [20260811-canada-life-business-analyst-v063](./20260811-canada-life-business-analyst-v063/) | verified |
+| 064 | 2026-08-12 | Rival Insurance Technology | Business Analyst | [20260812-rival-insurance-technology-business-analyst-v064](./20260812-rival-insurance-technology-business-analyst-v064/) | verified |

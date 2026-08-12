@@ -1,0 +1,81 @@
+% Jainali Mehta cover-letter template
+% Visual system adapted from the user-provided Dhruv Doshi reference.
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[empty]{fullpage}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+% Slightly less negative than the resume so the 11-point name row never clips.
+\addtolength{\topmargin}{-.35in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\begin{document}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/jainali-mehta}{\Large Jainali Mehta}} & Email: \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com}\\
+  \href{https://www.linkedin.com/in/jainali-mehta}{linkedin.com/in/jainali-mehta} & \href{https://github.com/jainalimehta}{github.com/jainalimehta} $|$ Toronto, Ontario, Canada \\
+\end{tabular*}
+
+\hrulefill
+
+\bigbreak
+August 12, 2026
+
+\bigbreak
+\centerline{\large\textbf{RE: Business Analyst, Rival Insurance Technology}}
+
+\bigbreak
+Dear Hiring Manager,
+
+\bigbreak
+I am applying for the Business Analyst position with Rival Insurance Technology. Your focus on turning complex operating problems into software improvements---and using AI to remove process friction---closely matches how I approach analytical work. I completed a Master of Business Analytics at Edith Cowan University in Australia and now live in Toronto, bringing an early-career foundation in requirements, process documentation, data validation, and stakeholder communication.
+
+\bigbreak
+At AYLA Solutions in Australia, I gathered and documented business and reporting requirements, supported SQL-based extraction and validation, prepared advanced Excel reports, and contributed dashboard insights for business performance tracking. Participating in Agile sprint planning and reviews taught me to clarify operational needs, communicate progress, and maintain documentation that keeps analytical work aligned with its business purpose. Those habits support clear work across client, product, and development perspectives.
+
+\bigbreak
+My published e-commerce, healthcare, and workforce projects demonstrate a disciplined path from a business question to validated evidence and a recommendation. I built relational PostgreSQL models, defined integrity rules and KPIs, examined patterns with CTEs and window functions, and added repeatable validation and GitHub Actions checks. I then used generative AI to help interpret verified SQL outputs and document decision-focused recommendations, alongside Power BI KPI and dashboard plans. This work reflects the practical, evidence-grounded use of AI that Rival describes.
+
+\bigbreak
+Earlier roles at Trans Globe Education and Arihant Investment developed my client communication, market-research support, workflow coordination, and careful handling of confidential records. Graduate study in Business Systems Analysis, Business Process Management, Databases and Business Intelligence, and Project Management strengthened my ability to trace a need through process, data, and delivery considerations. I would bring that structured mindset while deliberately building the insurance-domain depth---including broker workflows, carrier connectivity, and CSIO standards---that this position demands.
+
+\bigbreak
+Rival's combination of intelligent automation, end-to-end product thinking, and clear cross-functional collaboration is especially compelling to me. I would welcome the opportunity to contribute dependable analysis, clear requirements, rigorous validation, and a proactive learning mindset to solutions that improve how brokers and insurers work. Thank you for your consideration. I welcome a conversation about contributing at Rival.
+
+\bigbreak
+Best regards,\\
+Jainali Mehta
+
+\end{document}

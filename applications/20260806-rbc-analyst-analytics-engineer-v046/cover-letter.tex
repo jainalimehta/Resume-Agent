@@ -1,0 +1,84 @@
+% Jainali Mehta cover-letter template
+% Visual system adapted from the user-provided Dhruv Doshi reference.
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[empty]{fullpage}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+% Slightly less negative than the resume so the 11-point name row never clips.
+\addtolength{\topmargin}{-.35in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\begin{document}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/jainali-mehta}{\Large Jainali Mehta}} & Email: \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com}\\
+  \href{https://www.linkedin.com/in/jainali-mehta}{linkedin.com/in/jainali-mehta} & \href{https://github.com/jainalimehta}{github.com/jainalimehta} $|$ Toronto, Ontario, Canada \\
+\end{tabular*}
+
+\hrulefill
+
+\bigbreak
+August 6, 2026
+
+\bigbreak
+\centerline{\large\textbf{RE: Analyst, Analytics Engineer, RBC}}
+
+\bigbreak
+Dear Hiring Manager,
+
+\bigbreak
+I am applying for the Analyst, Analytics Engineer position (R-0000181478) with RBC's Global Procurement \& Supplier Management Product \& Data Team. I completed a Master of Business Analytics at Edith Cowan University in Australia and now live in Toronto. The role's focus on reliable data processes, reporting, quality, and active learning closely matches the foundation I have built through an Australian data internship and hands-on analytics projects.
+
+\bigbreak
+At AYLA Solutions in Australia, I gathered and documented business and reporting requirements, supported SQL-based extraction and validation, prepared advanced Excel reports, and contributed dashboard insights for performance tracking. Participating in Agile sprint planning and reviews taught me to clarify the need, organize the analytical task, communicate progress, and maintain documentation that others could follow. That experience aligns with RBC's reporting requests and cross-functional work.
+
+\bigbreak
+My portfolio shows how I learn by building. In E-Commerce Sales Analytics, I connected customer, product, order, line-item, and payment data in PostgreSQL, implemented integrity rules, and defined recognized revenue to exclude pending, refunded, and cancelled activity. I then analyzed operational and financial questions, added repeatable validation and GitHub Actions checks, and translated the results into Power BI KPI and dashboard planning. A healthcare project extended that practice through CTEs, window functions, segmentation, running totals, and lag comparisons. These projects strengthened my ability to move from data structure and quality checks to decision-focused outputs.
+
+\bigbreak
+Earlier support and administrative roles strengthened my process coordination, confidential record handling, client communication, and attention to accuracy. Graduate coursework in Databases and Business Intelligence, Business Systems Analysis, Analytics and Business Decision Making, and Machine Learning helped me turn that operational discipline into a technical analytics foundation.
+
+\bigbreak
+I am especially drawn to learning production ETL and scheduled data workflows alongside experienced data, reporting, and insights professionals. I would contribute SQL, advanced Excel, relational modelling, validation discipline, clear requirements, and dependable follow-through while growing into greater technical responsibility. RBC's emphasis on integrity, collaboration, and progressive development makes this opportunity compelling.
+
+\bigbreak
+Thank you for your time and consideration. I look forward to discussing how I could contribute to your team.
+
+\bigbreak
+Best regards,\\
+Jainali Mehta
+
+\end{document}
