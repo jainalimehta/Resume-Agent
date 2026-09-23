@@ -2,6 +2,8 @@
 
 The canonical visual system is adapted from the user-provided Dhruv Doshi LaTeX references in `agent/`. Jainali's reusable implementations are `../assets/resume-template.tex` and `../assets/cover-letter-template.tex`. Copy the layout system only; never copy Dhruv's candidate facts, claims, metrics, signature, or fabrication permissions.
 
+Jainali's templates intentionally retain the reference's strongest visual ideas while improving portability and ATS safety: T1-encoded searchable fonts, Unicode hyperlinks, ligature-safe extraction, a location-aware second header row, and no dependency on a signature image. The assets in this skill—not the raw files in `agent/`—are the structural source of truth for every new application.
+
 ## Resume Contract
 
 - US Letter, single-column `article`, 9.5-point document option.
@@ -13,6 +15,7 @@ The canonical visual system is adapted from the user-provided Dhruv Doshi LaTeX 
 - Small-caps section headings with thin black rules and compact spacing.
 - Description-style Skills rows with bold category labels and no rating graphics.
 - Each Skills row must remain on one visual line. Divide a long category into two semantically distinct supported rows rather than allowing a wrap.
+- Splitting a Skills category changes organization only; it does not authorize adding unsupported tools or duplicating the same terms as page filler.
 - Employer and education rows use `\resumeSubheading{Organization}{Location}{Title/Degree}{Date}`.
 - Experience and project evidence uses `\resumeItem{Short Label}{Defensible evidence}` with bold labels and compact circular sub-bullets.
 - Locked order: Skills, Experience, Projects, Education, Credentials.
@@ -46,3 +49,4 @@ The canonical visual system is adapted from the user-provided Dhruv Doshi LaTeX 
 - Copying Dhruv's content, signature, personal details, claims, metrics, or candidate-specific instructions.
 - Inventing experience or projects to fill a job-description gap.
 - Leaving excessive unused page space when additional relevant verified evidence is available.
+- Filling space with duplicated keywords, empty claims, fabricated freelance work, or decorative elements.

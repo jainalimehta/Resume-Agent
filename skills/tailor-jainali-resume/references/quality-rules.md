@@ -3,11 +3,14 @@
 ## Truth and Evidence
 
 - Treat `jainali-profile.md` as the sole candidate fact base.
+- Treat all Dhruv Doshi files under `agent/` as layout and workflow references only; no identity, contact, employer, education, project, skill, metric, or achievement may cross into Jainali's application.
 - Classify job requirements as direct, adjacent, or unsupported evidence before drafting.
 - Tailor selection, ordering, and language without changing factual meaning.
 - Use genuine freelance experience only from `freelance-evidence.md`. Never invent or round up engagements, clients, projects, metrics, scope, dates, tools, outcomes, seniority, production status, team size, or dataset scale.
 - Never turn exposure, coursework, planning, adjacent knowledge, or supporting work into hands-on production ownership.
 - Prefer narrow defensible wording when evidence is ambiguous.
+- “Plausible,” “interview-defensible,” or “something the candidate could learn” is not evidence. Never invent a personal project or round a metric upward to close a job-description gap.
+- Confidential or difficult-to-verify work follows the same evidence standard as public work. Keep a private client anonymous when necessary, but never invent the engagement or its contents.
 - Record unsupported requirements in `match-notes.md`; do not add them as ATS keywords.
 
 ## Writing Quality
@@ -18,6 +21,8 @@
 - Keep ownership verbs calibrated: `supported`, `contributed`, `participated`, and `coordinated` are often correct for the internship.
 - Avoid filler such as `results-driven`, `dynamic professional`, `seasoned`, `expert`, `various`, and `responsible for`.
 - Frame confirmed work confidently and specifically. Strong relevance and concise wording are encouraged; unsupported facts are not.
+- Truthful amplification means improving selection, ordering, labels, business context, and clarity while preserving the underlying work, ownership, and result.
+- Avoid self-disqualifying resume or cover-letter language. State verified evidence confidently; reserve the complete gap inventory for match notes and interview preparation, while disclosing only trust-critical gaps in the letter.
 - Avoid first-person pronouns in the resume and avoid repeating whole resume sentences in the cover letter.
 - Use exact capitalization for employers, titles, degrees, technologies, credentials, and project names.
 
@@ -35,10 +40,12 @@
 - Resume uses the locked 9.5-point Dhruv-inspired template; cover letter uses the matching 11-point template.
 - Preserve the two-row identity header, margins, compact ruled sections, list geometry, macros, and single-column structure.
 - Every Skills category must occupy exactly one rendered line. Shorten or split a wrapping category; continuation lines fail QA.
+- A split Skills row must create two meaningful categories; never repeat the same list under different labels to fill space.
 - Never reduce the resume below 9.5 points or solve overflow with extreme margins, horizontal scaling, or collisions.
 - Trim in order: irrelevant projects/credentials, low-value older bullets, duplicated wording, excess skill items, then permitted content spacing.
 - Avoid one- or two-word wrapped fragments, empty visual rows, clipping, or dense walls of text.
 - Use the full page without crowding. Excessive bottom whitespace fails QA; add verified relevant evidence in the documented priority order instead of fiction or repetition.
+- Page fill is judged from the rendered document, not the source length. Use verified methods, purposes, deliverables, projects, coursework, and credentials before permitted spacing changes.
 
 ## Locked Resume Structure
 
@@ -65,6 +72,7 @@ Keep Education and Credentials separate. Require exact published project titles:
 - Require one page per PDF, searchable text, embedded fonts, header-first reading order, and locked resume section order.
 - Reject unresolved template placeholders, compatibility ligatures, unsupported Tableau or IBM SPSS Statistics claims, false internship titles, renamed published projects, and unverified phone numbers.
 - Reject wrapped Skills rows and excessive resume bottom whitespace.
+- Reject any Dhruv Doshi identity, contact, employer, education, signature, or candidate-specific artifact copied from the reference files.
 - Resolve every short-line warning.
 - Render both PDFs and visually inspect clipping, overlap, spacing, alignment, capitalization, density, and whitespace.
 - Rebuild after every material change and mark history verified only after the final render passes.

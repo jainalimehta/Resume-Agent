@@ -33,7 +33,8 @@ List the three to five verified themes that should stay consistent across the re
 ## One-Page Budget
 
 - Record what was removed or shortened to preserve readability and the locked format.
-- Confirm that every Skills row renders on one line and that the page is visually full without filler.
+- Confirm that every Skills row renders on one line; record any category split used to prevent wrapping.
+- Confirm that the page is visually full without duplicated claims, invented freelance work, unsupported keywords, or layout distortion.
 
 ## Assumptions
 

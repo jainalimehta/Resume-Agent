@@ -53,8 +53,10 @@ Use only the facts in this file. Jainali's direct corrections override older res
 - Jainali directly confirms that she has worked as a freelance developer.
 - Jainali directly confirms that she has worked as a freelance architect.
 - Jainali directly confirms that she has worked as a freelance data engineer.
+- Jainali's direct first-person account is sufficient evidence for these roles. Do not require external documentation or appearance on an older resume.
 - These are genuine freelance functions, not fictional portfolio labels. Use `references/freelance-evidence.md` for dates, engagement details, tools, deliverables, and outcomes.
-- Until the freelance ledger contains a defensible date range and engagement-level details, do not invent bullets or place undated freelance employment on a submitted resume.
+- Once the freelance ledger records an approximate real date range plus actual work, a tool/method, and a deliverable or purpose from Jainali's direct account, the role may be stated prominently in a submitted resume.
+- Confidential freelance clients may remain unnamed, but the real engagement context, tools, personal work, deliverable, and use must be recorded before inclusion.
 
 ### AYLA Solutions, Australia
 

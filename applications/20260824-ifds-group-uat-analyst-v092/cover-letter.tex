@@ -1,0 +1,84 @@
+% Jainali Mehta cover-letter template
+% Visual system adapted from the user-provided Dhruv Doshi reference.
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[empty]{fullpage}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+% Slightly less negative than the resume so the 11-point name row never clips.
+\addtolength{\topmargin}{-.35in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\begin{document}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/jainali-mehta}{\Large Jainali Mehta}} & Email: \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com}\\
+  \href{https://www.linkedin.com/in/jainali-mehta}{linkedin.com/in/jainali-mehta} & \href{https://github.com/jainalimehta}{github.com/jainalimehta} $|$ Toronto, Ontario, Canada \\
+\end{tabular*}
+
+\hrulefill
+
+\bigbreak
+August 24, 2026
+
+\bigbreak
+\centerline{\large\textbf{RE: UAT Analyst, IFDS Group}}
+
+\bigbreak
+Dear Hiring Manager,
+
+\bigbreak
+I am applying for the UAT Analyst position with IFDS Group. I completed a Master of Business Analytics at Edith Cowan University in Australia and now live in Toronto. My strongest alignment is the discipline behind effective user acceptance testing: clarifying business requirements, validating outputs against defined rules, documenting work carefully, tracking information in Excel, and communicating progress across a structured delivery process. My earlier investment-services experience and NISM Series XII Securities Markets Foundation credential also give me a relevant starting point for IFDS's financial-services environment.
+
+\bigbreak
+At AYLA Solutions in Australia, I gathered and documented business and reporting requirements, supported SQL-based extraction and validation, prepared advanced Excel reports, and contributed performance-tracking insights. Participating in Agile sprint planning and reviews taught me to clarify intent, organize evidence, communicate progress, and maintain documentation others can use. These habits transfer directly to reviewing specifications, defining expected outcomes, reporting issues clearly, and following them through.
+
+\bigbreak
+My portfolio demonstrates the quality mindset I would bring to UAT. In E-Commerce Sales Analytics, I translated transaction states into recognized-revenue rules, enforced relational keys and checks, and built repeatable validation and GitHub Actions checks. In Healthcare Patient \& Hospital Analytics, I modelled linked operational processes covering appointments, treatments, billing, and claims, then added automated validation. A Bank of Baroda project further developed my ability to analyze financial transaction patterns in Excel and SQL and present practical recommendations.
+
+\bigbreak
+Earlier roles at Trans Globe Education and Arihant Investment strengthened my follow-through, confidential record handling, process coordination, and client communication. Graduate coursework in Business Systems Analysis, Business Process Management, and Project Management reinforced how requirements, processes, risks, and delivery controls fit together.
+
+\bigbreak
+I recognize that formal production UAT ownership, iFAST, mutual- and segregated-fund processing, and Canadian CSC/IFIC coursework would be new areas for me. I would approach that learning transparently and methodically: understand the business process, trace requirements to test coverage, define expected results, test positive and negative paths, document evidence, and escalate risks promptly. IFDS appeals to me because the role connects careful testing with the reliability of systems used by financial organizations and their clients.
+
+\bigbreak
+Thank you for considering my application. I would welcome the opportunity to discuss how my analytical foundation, attention to data integrity, and disciplined learning approach could support IFDS's UAT team.
+
+\bigbreak
+Best regards,\\
+Jainali Mehta
+
+\end{document}

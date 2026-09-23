@@ -20,6 +20,12 @@ ALLOWED_SHORT = {
     "core competencies", "master baseline", "prospective employer", "skills",
 }
 REQUIRED_RESUME_SECTIONS = ("Skills", "Experience", "Projects", "Education", "Credentials")
+FORBIDDEN_REFERENCE_IDENTIFIERS = (
+    "Dhruv Doshi",
+    "doshidhruv.com",
+    "work@doshidhruv.com",
+    "+1-902-989-1274",
+)
 
 
 def command(name: str) -> str:
@@ -123,7 +129,7 @@ def resume_density_failures(pdf: Path, bbox_path: Path) -> list[str]:
     if not bottoms:
         return ["resume.pdf: could not measure page coverage"]
     content_bottom = max(bottoms)
-    if content_bottom < 675:
+    if content_bottom < 685:
         return [
             "resume.pdf: excessive bottom whitespace; add relevant verified evidence "
             f"or rebalance permitted spacing (content ends at y={content_bottom:.1f})"
@@ -186,6 +192,11 @@ def main() -> None:
             failures.append(f"{pdf.name}: prohibited unsupported IBM SPSS Statistics claim found")
         if re.search(r"\b(?:Business Analyst|Data Analyst|Analytics Engineer) Intern\b", extracted, re.IGNORECASE):
             failures.append(f"{pdf.name}: prohibited altered AYLA internship title found")
+        for identifier in FORBIDDEN_REFERENCE_IDENTIFIERS:
+            if identifier.lower() in extracted.lower():
+                failures.append(
+                    f"{pdf.name}: reference-candidate identifier found: {identifier}"
+                )
         if re.search(r"(?:\+?1[-.\s]?)?\(?\d{3}\)?[-.\s]\d{3}[-.\s]\d{4}", extracted):
             failures.append(f"{pdf.name}: unverified phone number found")
         prohibited_project_aliases = (

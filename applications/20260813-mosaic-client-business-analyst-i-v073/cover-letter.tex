@@ -1,0 +1,81 @@
+% Jainali Mehta cover-letter template
+% Visual system adapted from the user-provided Dhruv Doshi reference.
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[empty]{fullpage}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+% Slightly less negative than the resume so the 11-point name row never clips.
+\addtolength{\topmargin}{-.35in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\begin{document}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/jainali-mehta}{\Large Jainali Mehta}} & Email: \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com}\\
+  \href{https://www.linkedin.com/in/jainali-mehta}{linkedin.com/in/jainali-mehta} & \href{https://github.com/jainalimehta}{github.com/jainalimehta} $|$ Toronto, Ontario, Canada \\
+\end{tabular*}
+
+\hrulefill
+
+\bigbreak
+August 13, 2026
+
+\bigbreak
+\centerline{\large\textbf{RE: Client Business Analyst I, Mosaic}}
+
+\bigbreak
+Dear Hiring Manager,
+
+\bigbreak
+I am applying for the Client Business Analyst I position with Mosaic. The role's combination of client reporting, survey research, market information, data quality, and actionable recommendations closely matches the analytical foundation I have been building. I completed a Master of Business Analytics at Edith Cowan University in Australia and now live in Toronto, with hands-on experience in PostgreSQL, SQL, advanced Excel, Google Forms, reporting requirements, and data validation.
+
+\bigbreak
+At AYLA Solutions in Australia, I gathered and documented business and reporting requirements, supported SQL-based extraction and validation, prepared advanced Excel reports, and contributed dashboard insights for business performance tracking. Participating in Agile sprint planning and reviews strengthened my ability to clarify needs, communicate progress, and maintain accurate analytical documentation. Those habits are relevant to dependable client reporting and responsive ad hoc analysis.
+
+\bigbreak
+A separate research project provides direct survey evidence. I designed a Google Forms survey of small businesses, cleaned and organized responses in Excel using formulas, filters, pivot tables, percentages, and charts, and identified adoption patterns and user barriers before documenting recommendations. At Trans Globe Education, I also supported market research, reporting, client communication, and workflow coordination. Together, these experiences strengthened my ability to collect evidence carefully and connect observed patterns with practical recommendations.
+
+\bigbreak
+My published e-commerce, healthcare, and workforce repositories further demonstrate data modelling, cleansing, integrity rules, KPI analysis, and repeatable validation. I used CTEs and window functions to identify operational patterns, added GitHub Actions checks, and documented AI-assisted recommendations grounded in verified SQL outputs. Each repository also contains Power BI KPI and dashboard planning, reflecting my ability to connect analytical logic with reporting needs while accurately distinguishing planning from implementation.
+
+\bigbreak
+Mosaic's focus on understanding evolving consumers and using evidence to adapt sales and marketing tactics is especially compelling to me. I would bring careful data preparation, clear reporting, client-minded communication, intellectual curiosity, and a strong commitment to trustworthy analysis while developing deeper expertise in Mosaic's measurement practices and BI environment. Thank you for your consideration; I look forward to discussing how I could contribute.
+
+\bigbreak
+Best regards,\\
+Jainali Mehta
+
+\end{document}

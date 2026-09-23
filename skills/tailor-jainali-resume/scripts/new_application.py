@@ -35,15 +35,14 @@ def slugify(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-") or "unknown"
 
 
-def render_templates(skill: Path, replacements: dict[str, str]) -> dict[str, str]:
+def render_templates(
+    skill: Path,
+    replacements: dict[str, str],
+    templates: dict[str, str],
+) -> dict[str, str]:
     """Render every application template and reject unresolved placeholders."""
     latex_replacements = {
         placeholder: latex_escape(value) for placeholder, value in replacements.items()
-    }
-    templates = {
-        "resume-template.tex": "resume.tex",
-        "cover-letter-template.tex": "cover-letter.tex",
-        "match-notes-template.md": "match-notes.md",
     }
     rendered: dict[str, str] = {}
     for source_name, output_name in templates.items():
@@ -69,6 +68,14 @@ def main() -> None:
     parser.add_argument("--job-description", type=Path, required=True)
     parser.add_argument("--date", default=dt.date.today().isoformat())
     parser.add_argument("--root", type=Path, default=Path.cwd())
+    parser.add_argument("--include-readiness", action="store_true")
+    parser.add_argument("--include-interview-guide", action="store_true")
+    parser.add_argument("--include-referral-email", action="store_true")
+    parser.add_argument(
+        "--full-package",
+        action="store_true",
+        help="Scaffold readiness, interview preparation, and referral email files.",
+    )
     args = parser.parse_args()
 
     root = args.root.resolve()
@@ -95,7 +102,18 @@ def main() -> None:
         version = f"{base}-v{version_number:03d}"
         target = applications / version
         replacements["{{VERSION}}"] = version
-        rendered = render_templates(skill, replacements)
+        templates = {
+            "resume-template.tex": "resume.tex",
+            "cover-letter-template.tex": "cover-letter.tex",
+            "match-notes-template.md": "match-notes.md",
+        }
+        if args.full_package or args.include_readiness:
+            templates["application-readiness-template.md"] = "application-readiness.md"
+        if args.full_package or args.include_interview_guide:
+            templates["interview-preparation-template.md"] = "interview-preparation.md"
+        if args.full_package or args.include_referral_email:
+            templates["referral-email-template.md"] = "referral-email.md"
+        rendered = render_templates(skill, replacements, templates)
 
         target.mkdir(exist_ok=False)
         for output_name, text in rendered.items():

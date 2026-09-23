@@ -1,0 +1,84 @@
+% Jainali Mehta cover-letter template
+% Visual system adapted from the user-provided Dhruv Doshi reference.
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[empty]{fullpage}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+% Slightly less negative than the resume so the 11-point name row never clips.
+\addtolength{\topmargin}{-.35in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\emergencystretch=1em
+\widowpenalty=10000
+\clubpenalty=10000
+
+\begin{document}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/jainali-mehta}{\Large Jainali Mehta}} & Email: \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com}\\
+  \href{https://www.linkedin.com/in/jainali-mehta}{linkedin.com/in/jainali-mehta} & \href{https://github.com/jainalimehta}{github.com/jainalimehta} $|$ Toronto, Ontario, Canada \\
+\end{tabular*}
+
+\hrulefill
+
+\bigbreak
+September 10, 2026
+
+\bigbreak
+\centerline{\large\textbf{RE: BI Specialist / Data Analyst, Tayco}}
+
+\bigbreak
+Dear Hiring Manager,
+
+\bigbreak
+I am applying for Tayco's BI Specialist / Data Analyst contract position. I completed a Master of Business Analytics at Edith Cowan University in Australia and now live in Toronto. My strongest alignment is in PostgreSQL and SQL, advanced Excel, relational modelling, data validation, reporting requirements, KPI design, Git/GitHub, and AI-assisted interpretation. I am drawn to the opportunity to make manufacturing and business-system information clear, reliable, and useful to management.
+
+\bigbreak
+At AYLA Solutions in Australia, I gathered and documented business and reporting requirements, supported SQL extraction and validation, prepared advanced Excel reports, and contributed dashboard and reporting insights for business performance tracking. Participating in Agile planning and reviews strengthened my ability to clarify questions, organize inputs and outputs, communicate progress, and maintain current documentation. That foundation fits Tayco's need to confirm definitions before building and to coordinate reporting work within a small cross-functional team.
+
+\bigbreak
+My E-Commerce Sales Analytics project demonstrates the reporting discipline I would bring. I modelled customers, products, orders, line items, and payments in PostgreSQL; applied keys, uniqueness rules, and checks; defined recognized-revenue logic; and analyzed monthly revenue, product rankings, order frequency, customer spend, and payment methods. Healthcare Patient \& Hospital Analytics adds CTEs and window functions for rankings, segmentation, running totals, and lag comparisons. Across both repositories, I added GitHub Actions validation and developed AI-assisted recommendations grounded in verified SQL findings.
+
+\bigbreak
+I have also completed Power BI KPI, visual, filter, and dashboard planning for all three published projects. Interactive implementation and `.pbix` publication remain the next stage, so I present that work accurately rather than implying production Power BI ownership. Earlier roles at Trans Globe Education and Arihant Investment strengthened my reporting support, workflow coordination, client communication, and careful handling of accurate, confidential records.
+
+\bigbreak
+Tayco's combination of BI, software collaboration, operational reporting, and responsible AI use is especially appealing. My direct foundation is strongest in PostgreSQL, analytical SQL, Excel, validation, documentation, and report planning. I would bring accountable analysis and an active-learning mindset while developing the production DAX, Power Query, Crystal Reports, Windows Server, and report-embedding skills required by Tayco's environment.
+
+\bigbreak
+Thank you for considering my application. I would welcome the opportunity to discuss how my SQL, data-quality, reporting-requirements, and analytical foundation could help Tayco deliver reliable management reporting and sound operational decisions.
+
+\bigbreak
+Best regards,\\
+Jainali Mehta
+
+\end{document}

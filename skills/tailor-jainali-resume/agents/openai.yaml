@@ -1,4 +1,4 @@
 interface:
   display_name: "Tailor Jainali Resume"
   short_description: "Build verified one-page job applications"
-  default_prompt: "Use $tailor-jainali-resume to create a truthful one-page resume and matching cover letter for Jainali from this job description, using verified employment, portfolio and freelance evidence, one-line Skills rows, balanced page coverage, and full QA."
+  default_prompt: "Use $tailor-jainali-resume to create Jainali's strongest truthful one-page resume and matching cover letter from this job description using canonical evidence, the compact Dhruv-inspired format, fit classification, immutable application history, full QA, and any requested readiness, interview-defense, or referral materials."

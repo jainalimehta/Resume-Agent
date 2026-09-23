@@ -1,0 +1,162 @@
+% Jainali Mehta resume template
+% Visual system adapted from the user-provided Dhruv Doshi reference.
+
+\documentclass[letterpaper,9.5pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifXeTeX
+  \XeTeXinterchartokenstate=1
+  \newXeTeXintercharclass\ResumeFClass
+  \newXeTeXintercharclass\ResumeILClass
+  \XeTeXcharclass`f=\ResumeFClass
+  \XeTeXcharclass`i=\ResumeILClass
+  \XeTeXcharclass`l=\ResumeILClass
+  \XeTeXinterchartoks\ResumeFClass\ResumeFClass={\kern0pt}
+  \XeTeXinterchartoks\ResumeFClass\ResumeILClass={\kern0pt}
+\fi
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Locked compact geometry from the reference format.
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\emergencystretch=1em
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\renewcommand{\labelitemii}{$\circ$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/jainali-mehta}{\Large Jainali Mehta}} & Email: \href{mailto:jainali2000@gmail.com}{jainali2000@gmail.com}\\
+  \href{https://www.linkedin.com/in/jainali-mehta}{linkedin.com/in/jainali-mehta} & \href{https://github.com/jainalimehta}{github.com/jainalimehta} $|$ Toronto, Ontario, Canada \\
+\end{tabular*}
+
+\section{Skills}
+\begin{description}[noitemsep,topsep=0pt]
+  \item[] \textbf{Business Analysis}: Requirements gathering, process mapping, workflow analysis, documentation
+  \item[] \textbf{Process \& Delivery}: Agile planning and reviews, workflow coordination, progress communication
+  \item[] \textbf{Testing \& Quality}: Data validation, business-rule checks, keys, constraints, GitHub Actions
+  \item[] \textbf{Financial \& KPI Analysis}: Revenue logic, transaction trends, KPI reporting, variance analysis
+  \item[] \textbf{Data \& Reporting}: PostgreSQL, SQL, advanced Excel, pivot tables, Power BI planning
+  \item[] \textbf{Stakeholder Support}: Client communication, process updates, accurate records, confidentiality
+\end{description}
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+  % Add a genuine freelance entry here only after its date range and selected
+  % engagement evidence are documented in references/freelance-evidence.md.
+
+  \resumeSubheading
+    {AYLA Solutions}{Australia}
+    {Data Intern}{2025}
+    \resumeItemListStart
+      \resumeItem{Requirements \& Reporting}
+        {Gathered and documented business and reporting requirements, helping clarify analytical needs and expected outputs.}
+      \resumeItem{Data Validation \& Reporting}
+        {Supported SQL-based extraction and validation, prepared advanced Excel reports, and contributed performance-tracking insights.}
+      \resumeItem{Project Collaboration}
+        {Participated in Agile planning and reviews, shared progress, and kept documentation current.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Trans Globe Education}{India}
+    {Support Executive}{2022--2023}
+    \resumeItemListStart
+      \resumeItem{Records \& Coordination}
+        {Maintained records and coordinated application updates for students and institutions.}
+      \resumeItem{Workflow \& Communication}
+        {Supported reporting, workflows, client communication, and market research.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Arihant Investment}{India}
+    {Administrative Executive}{2020--2021}
+    \resumeItemListStart
+      \resumeItem{Documentation \& Controls}
+        {Handled data entry, documentation, and client record maintenance while preserving accuracy and confidentiality.}
+      \resumeItem{Operational Support}
+        {Supported daily business operations, client communication, and reliable records.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeSubItem{\href{https://github.com/jainalimehta/Ecommerce-Sales-Analytics}{E-Commerce Sales Analytics}}
+    {Modelled customers, products, orders, line items, and payments in PostgreSQL; defined recognized-revenue rules, analyzed customer spend, order frequency, product rankings, monthly revenue, and payment methods, and added repeatable validation, GitHub Actions checks, AI-assisted recommendations, and Power BI planning.}
+  \resumeSubItem{Bank of Baroda Customer Behaviour Analysis}
+    {Analyzed customer transaction patterns using Excel and SQL for cleaning, visualization, and trend analysis; presented recommendations for customer engagement and service delivery.}
+  \resumeSubItem{Online GST Filing Adoption Research}
+    {Designed a Google Forms survey on small-business adoption of online GST filing; analyzed responses in Excel using formulas, filters, pivot tables, percentages, and charts, documented findings and recommendations, and earned an A grade.}
+  \resumeSubItem{\href{https://github.com/jainalimehta/HR-Analytics}{HR Analytics}}
+    {Built a normalized PostgreSQL model spanning departments, employees, salaries, performance, and attendance; analyzed workforce KPIs using CTEs, rankings, window functions, repeatable validation, and AI-assisted recommendations.}
+\resumeSubHeadingListEnd
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Edith Cowan University}{Australia}
+    {Master of Business Analytics}{2023--2025}
+    \resumeItemListStart
+      \resumeItem{Relevant Coursework}
+        {Business Systems Analysis, Business Process Management, Project Management, Enterprise Architecture, and Databases and Business Intelligence.}
+    \resumeItemListEnd
+  \resumeSubheading
+    {Atmiya University}{India}
+    {Integrated Master of Business Administration}{2018--2022}
+\resumeSubHeadingListEnd
+
+\section{Credentials}
+\resumeSubHeadingListStart
+  \resumeSubItem{Business Analysis \& Process Management}
+    {Coursera Project Network, issued June 2025; Credential ID: WV4JMS14XVV6.}
+  \vspace{-6pt}
+  \resumeSubItem{NISM Series XII}
+    {Securities Markets Foundation.}
+\resumeSubHeadingListEnd
+
+\end{document}
